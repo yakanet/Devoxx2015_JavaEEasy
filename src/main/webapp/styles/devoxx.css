@@ -1,0 +1,91 @@
+header > nav {
+    padding-left: 10px;
+    background-color: #f5af33;
+    margin-right: 20%;
+    transform: skew(-20deg);
+}
+
+header ul {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    list-style: none;
+}
+
+header ul > li:first-child {
+    background: black;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 2em;
+    padding-right: 1em;
+    margin-left: -2em;
+}
+header ul > li:first-child :after {
+    Content: 'X';
+    color: #f5af33;
+}
+
+header a {
+    padding: 1.25rem 2rem;
+    text-decoration: none;
+    display: flex;
+    align-items: flex-start;
+    color: #fff;
+}
+
+/* bootstrap ui-fix*/
+.modal-open {
+    overflow: auto;
+}
+
+slot{
+	display: block;
+	margin:0 15px;
+	cursor: pointer;
+	transition-property: padding-left;
+	transition-duration: 0.1s;
+}
+
+slot .title {
+	color: #202020;
+	font-size: 20px;
+	line-height: 1.6;
+}
+
+slot .details {
+	color: #717171;
+	font-size: 13px;
+	line-height: 2.15385;
+}
+
+slot .content{
+	border-bottom: 1px solid #e7e7e7;
+	padding-top: 20px;
+	padding-bottom: 30px;
+	transition-property: padding-left;
+	transition-duration: 0.1s;
+}
+
+slot:hover .content {
+	padding-left: 15px;
+}
+
+/* animations */
+slot{
+	transition:0.3s linear all;
+	position:relative;
+}
+
+slot.ng-leave.ng-leave-active,
+slot.ng-enter {
+	opacity:0;
+	left:-50px;
+}	
+
+slot.ng-enter.ng-enter-active, 
+slot.ng-leave {
+  	opacity:1;
+  	left:0;
+}

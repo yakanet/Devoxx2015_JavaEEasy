@@ -1,0 +1,132 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "slots": {
+      "id": "http://jsonschema.net/slots",
+      "type": "array",
+      "items": {
+        "id": "http://jsonschema.net/slots/0",
+        "type": "object",
+        "properties": {
+          "fromTimeMillis": {
+            "id": "http://jsonschema.net/slots/0/fromTimeMillis",
+            "type": "integer"
+          },
+          "toTimeMillis": {
+            "id": "http://jsonschema.net/slots/0/toTimeMillis",
+            "type": "integer"
+          },
+          "roomSetup": {
+            "id": "http://jsonschema.net/slots/0/roomSetup",
+            "type": "string"
+          },
+          "roomName": {
+            "id": "http://jsonschema.net/slots/0/roomName",
+            "type": "string"
+          },
+          "roomId": {
+            "id": "http://jsonschema.net/slots/0/roomId",
+            "type": "string"
+          },
+          "slotId": {
+            "id": "http://jsonschema.net/slots/0/slotId",
+            "type": "string"
+          },
+          "notAllocated": {
+            "id": "http://jsonschema.net/slots/0/notAllocated",
+            "type": "boolean"
+          },
+          "day": {
+            "id": "http://jsonschema.net/slots/0/day",
+            "type": "string"
+          },
+          "fromTime": {
+            "id": "http://jsonschema.net/slots/0/fromTime",
+            "type": "string"
+          },
+          "roomCapacity": {
+            "id": "http://jsonschema.net/slots/0/roomCapacity",
+            "type": "integer"
+          },
+          "toTime": {
+            "id": "http://jsonschema.net/slots/0/toTime",
+            "type": "string"
+          },
+          "talk": {
+            "id": "http://jsonschema.net/slots/0/talk",
+            "type": "object",
+            "properties": {
+              "id": {
+                "id": "http://jsonschema.net/slots/0/talk/id",
+                "type": "string"
+              },
+              "summary": {
+                "id": "http://jsonschema.net/slots/0/talk/summary",
+                "type": "string"
+              },
+              "title": {
+                "id": "http://jsonschema.net/slots/0/talk/title",
+                "type": "string"
+              },
+              "talkType": {
+                "id": "http://jsonschema.net/slots/0/talk/talkType",
+                "type": "string"
+              },
+              "track": {
+                "id": "http://jsonschema.net/slots/0/talk/track",
+                "type": "string"
+              },
+              "summaryAsHtml": {
+                "id": "http://jsonschema.net/slots/0/talk/summaryAsHtml",
+                "type": "string"
+              },
+              "speakers": {
+                "id": "http://jsonschema.net/slots/0/talk/speakers",
+                "type": "array",
+                "items": {
+                  "id": "http://jsonschema.net/slots/0/talk/speakers/0",
+                  "type": "object",
+                  "properties": {
+                    "link": {
+                      "$ref":"links-schema.json"
+                    },
+                    "name": {
+                      "id": "http://jsonschema.net/slots/0/talk/speakers/0/name",
+                      "type": "string"
+                    }
+                  }
+                }
+              },
+              "lang": {
+                "id": "http://jsonschema.net/slots/0/talk/lang",
+                "type": "string"
+              }
+            }
+          }
+        },
+        "required": [
+          "fromTimeMillis",
+          "toTimeMillis",
+          "roomSetup",
+          "roomName",
+          "roomId",
+          "slotId",
+          "notAllocated",
+          "day",
+          "fromTime",
+          "roomCapacity",
+          "toTime",
+          "talk"
+        ]
+      },
+      "required": [
+        "0"
+      ]
+    }
+  },
+  "required": [
+    "slots"
+  ]
+}

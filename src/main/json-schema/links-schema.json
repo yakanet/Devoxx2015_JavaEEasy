@@ -1,0 +1,40 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "id": "http://jsonschema.net",
+  "type": "object",
+  "properties": {
+    "links": {
+      "id": "http://jsonschema.net/links",
+      "type": "array",
+      "items": {
+        "id": "http://jsonschema.net/links/0",
+        "type": "object",
+        "properties": {
+          "href": {
+            "id": "http://jsonschema.net/links/0/href",
+            "type": "string"
+          },
+          "rel": {
+            "id": "http://jsonschema.net/links/0/rel",
+            "type": "string"
+          },
+          "title": {
+            "id": "http://jsonschema.net/links/0/title",
+            "type": "string"
+          }
+        },
+        "required": [
+          "href",
+          "rel",
+          "title"
+        ]
+      },
+      "required": [
+        "0"
+      ]
+    }
+  },
+  "required": [
+    "links"
+  ]
+}

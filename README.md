@@ -1,6 +1,19 @@
+# 00_mise_en_place
 # Generation des POJOs 
 
-Utiliser le service http://jsonschema.net/ pour créer le code JSON Schema à partir des JSON d'exemple. 
+Cette étape montre comment passer des réponses des services REST de l'api du cfp de devoxx vers des JavaBeans.
+
+Le plugin maven est capable de générer les classes Java depuis un schémas JSON.
+
+Le service http://jsonschema.net/ permet de générer des schémas JSON depuis un document JSON valide, c'est une aide précieuse.
+
+Voici les deux documents types qui nous ont servis  à générer les schémas.
+
+Pour lancer la compilation est la génération des Javabeans : mvn -gs devoxx-settings.xml clean install.
+
+Pour lancer l'application avec le TomEE embedded : mvn -gs devoxx-settings.xml  tomee-embedded:run
+
+Il y a deux utilisateurs configuré pour le basic auth, devoxx et devoxx2. Le mot de passe est identique au login.
 
 Links : 
 -------

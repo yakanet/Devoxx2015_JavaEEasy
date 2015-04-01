@@ -6,13 +6,10 @@ import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
-import javax.inject.Inject;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
 import javax.ws.rs.core.MediaType;
-
-import org.apache.johnzon.jaxrs.JohnzonProvider;
 
 import fr.devoxx.javaeeasy.models.cfp.Link;
 import fr.devoxx.javaeeasy.models.cfp.LinksSchema;
@@ -26,10 +23,18 @@ public class DevoxxClient {
 
     private String conference = "DevoxxFR2015";
 
-    private Class jsonProvider =JohnzonProvider.class;
+    private Class jsonProvider;
 
     private Client restClient;
     private WebTarget linksWebTarget;
+    
+    public DevoxxClient() {
+    	try {
+			this.jsonProvider = Class.forName("org.apache.johnzon.jaxrs.JohnzonProvider");
+		} catch (ClassNotFoundException e) {
+			e.printStackTrace();
+		}
+	}
     
     @PostConstruct
     private void init() {

@@ -6,6 +6,7 @@ import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
 import javax.enterprise.context.ApplicationScoped;
+import javax.inject.Inject;
 import javax.ws.rs.client.Client;
 import javax.ws.rs.client.ClientBuilder;
 import javax.ws.rs.client.WebTarget;
@@ -15,27 +16,27 @@ import fr.devoxx.javaeeasy.models.cfp.Link;
 import fr.devoxx.javaeeasy.models.cfp.LinksSchema;
 import fr.devoxx.javaeeasy.models.cfp.Slot;
 import fr.devoxx.javaeeasy.models.cfp.SlotsSchema;
+import fr.devoxx.javaeeasy.producers.Configuration;
 
 @ApplicationScoped
 public class DevoxxClient {
 
-    private String base="http://cfp.devoxx.fr/api/";
 
-    private String conference = "DevoxxFR2015";
+    @Inject
+    @Configuration(value = "client.url", otherwise = "http://cfp.devoxx.fr/api/")
+    private String base;
 
+    @Inject
+    @Configuration(value = "client.conference", otherwise = "DevoxxFR2015")
+    private String conference;
+
+    @Inject
+    @Configuration(value = "client.provider", otherwise = "org.apache.johnzon.jaxrs.JohnzonProvider")
     private Class jsonProvider;
 
     private Client restClient;
     private WebTarget linksWebTarget;
-    
-    public DevoxxClient() {
-    	try {
-			this.jsonProvider = Class.forName("org.apache.johnzon.jaxrs.JohnzonProvider");
-		} catch (ClassNotFoundException e) {
-			e.printStackTrace();
-		}
-	}
-    
+
     @PostConstruct
     private void init() {
         restClient = ClientBuilder.newBuilder().build().register(jsonProvider);

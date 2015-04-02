@@ -10,6 +10,7 @@ import javax.ws.rs.Path;
 import javax.ws.rs.Produces;
 import javax.ws.rs.core.MediaType;
 
+import fr.devoxx.javaeeasy.models.SlotsHolder;
 import fr.devoxx.javaeeasy.models.cfp.Slot;
 import fr.devoxx.javaeeasy.services.business.DevoxxClient;
 
@@ -17,8 +18,8 @@ import fr.devoxx.javaeeasy.services.business.DevoxxClient;
 @Path("conferences")
 public class SlotRestService {
 
-    @Inject
-    private DevoxxClient devoxxClient;
+	@Inject
+	private SlotsHolder conferences;
 
 
 	@Inject
@@ -28,7 +29,7 @@ public class SlotRestService {
     @Produces(MediaType.APPLICATION_JSON)
 	public Collection<Slot> getConferences(){
 		LOG.info("call to SlotRestService.getConferences");
-		return devoxxClient.retrieveSlots();
+		return conferences.getConferences();
 	}
 
 }

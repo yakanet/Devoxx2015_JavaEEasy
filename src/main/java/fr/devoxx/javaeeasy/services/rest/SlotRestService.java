@@ -1,6 +1,7 @@
 package fr.devoxx.javaeeasy.services.rest;
 
 import java.util.Collection;
+import java.util.logging.Logger;
 
 import javax.enterprise.context.ApplicationScoped;
 import javax.inject.Inject;
@@ -19,9 +20,14 @@ public class SlotRestService {
     @Inject
     private DevoxxClient devoxxClient;
 
+
+	@Inject
+	private Logger LOG;
+
 	@GET
     @Produces(MediaType.APPLICATION_JSON)
 	public Collection<Slot> getConferences(){
+		LOG.info("call to SlotRestService.getConferences");
 		return devoxxClient.retrieveSlots();
 	}
 

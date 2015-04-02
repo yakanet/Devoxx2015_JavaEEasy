@@ -37,13 +37,6 @@ public class BaseTestConfig {
         @Inject
         private DevoxxClient client;
 
-//        @Inject
-//        private SlotService slotService;
-//
-//        public SlotService getSlotService() {
-//            return slotService;
-//        }
-
         public DevoxxClient getClient() {
             return client;
         }

@@ -1,5 +1,5 @@
 <!doctype html>
-<html>
+<html ng-app="DevoxxApp">
 	<head>
 	    <meta charset="utf-8">
 	    <meta name=viewport content="width=device-width, initial-scale=1">
@@ -19,7 +19,7 @@
 		</header>
 		
 		<!-- Could use also ng-router -->
-		<div ng-include="'views/conferences.html'"></div>
+		<div ng-include="'views/conferences.html'" ng-controller="ConferenceCtrl"></div>
 		
 		<script src="webjars/angularjs/1.3.14/angular.min.js"></script>
 		<script src="webjars/angularjs/1.3.14/angular-sanitize.min.js"></script>

@@ -2,6 +2,7 @@ package fr.devoxx.javaeeasy.services.business;
 
 import java.util.Collection;
 import java.util.List;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 import javax.annotation.PostConstruct;
@@ -37,6 +38,9 @@ public class DevoxxClient {
     private Client restClient;
     private WebTarget linksWebTarget;
 
+    @Inject
+    private Logger LOG;
+
     @PostConstruct
     private void init() {
         restClient = ClientBuilder.newBuilder().build().register(jsonProvider);
@@ -44,6 +48,7 @@ public class DevoxxClient {
     }
 
     public List<Slot> retrieveSlots() {
+        LOG.info("Retreive all slots");
         return linksWebTarget.request(MediaType.APPLICATION_JSON_TYPE)
                 .get(LinksSchema.class)
                 .getLinks()

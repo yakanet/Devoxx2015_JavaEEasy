@@ -1,0 +1,17 @@
+<div class="toolbar row">
+	<div class="col-md-6">
+		<select ng-model="day" class="form-control">
+			<option value="wednesday">Mercredi</option>
+			<option value="thursday">Jeudi</option>
+			<option value="friday">Vendredi</option>
+		</select>
+	</div>
+	<div class="col-md-6">
+		<input type="text" ng-model="selected.talk.title" class="form-control" placeholder="Rechercher une conference" />
+	</div>
+</div>
+<slot
+	ng-repeat="evt in agenda | filter:{day : day} | filter:selected | orderBy:'fromTimeMillis'"
+	event="evt"
+    attendee="attendees[evt.slotId]">
+</slot>

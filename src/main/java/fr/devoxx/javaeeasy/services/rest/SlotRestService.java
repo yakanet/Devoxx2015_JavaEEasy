@@ -1,6 +1,8 @@
 package fr.devoxx.javaeeasy.services.rest;
 
 import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.logging.Logger;
 
 import javax.enterprise.context.ApplicationScoped;
@@ -33,4 +35,10 @@ public class SlotRestService {
 		return conferences.getConferences();
 	}
 
+	@GET
+	@Path("attendees")
+	@Produces(MediaType.APPLICATION_JSON)
+	public Map<String,Integer> getAttendeesBySlotId(){
+		return new HashMap<>();
+	}
 }

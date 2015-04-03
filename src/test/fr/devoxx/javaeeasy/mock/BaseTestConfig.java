@@ -18,7 +18,7 @@ import org.junit.rules.TestRule;
 import fr.devoxx.javaeeasy.services.business.DevoxxClient;
 
 public class BaseTestConfig {
-    // ContainerRule define an ApplicationComposer container aim to host apps
+    // ContainerRule defines an ApplicationComposer container aiming at host apps
     protected final ContainerRule container = new ContainerRule(new Container());
     // Application rule define an EE app to test
     protected final ApplicationRule app = new ApplicationRule(new JavaEEEasy());
@@ -26,7 +26,7 @@ public class BaseTestConfig {
     @Rule
     public final TestRule rule = RuleChain
             .outerRule(container)
-            .around(new ApplicationRule(new DevoxxApp())) // deploy it first for {@see ConferenceRetriever}
+            .around(new ApplicationRule(new DevoxxApp())) // deploy it first since we suppose it is present in our app {@see ConferenceRetriever}
             .around(app);
 
     // this is Mock app that emulate the devoxx cfp api, provide some static JSON contents on REST requests
@@ -35,7 +35,7 @@ public class BaseTestConfig {
     }
 
     // this is part of the JavaEEasy app we want to test
-    @Default // This get all classes from current classpath
+    @Default // This get all classes from current module
     @Classes(context = "app", cdi = true, excludes = "fr.devoxx.javaeeasy.mock") //excepted that
     public static class JavaEEEasy {
         @Inject

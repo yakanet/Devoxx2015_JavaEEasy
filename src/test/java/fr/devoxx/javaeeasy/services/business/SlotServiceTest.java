@@ -66,6 +66,55 @@ public class SlotServiceTest {
     }
 
     @Test
+    public void increment() throws Exception {
+        {
+            final SlotJpa slot = new SlotJpa();
+            slot.setId("incr");
+
+            ut.begin();
+            em.persist(slot);
+            ut.commit();
+        }
+        assertEquals(0, slotService.count(em.find(SlotJpa.class, "incr")));
+
+        for (int i = 0; i < 10; i++) {
+            name = "i#" + i;
+            slotService.addAttendeeToSlot("incr");
+            assertEquals(i + 1, slotService.count(em.find(SlotJpa.class, "incr")));
+        }
+    }
+
+    @Test
+    public void decrement() throws Exception {
+        {
+            final SlotJpa slot = new SlotJpa();
+            slot.setId("decr");
+
+            ut.begin();
+            em.persist(slot);
+            for (int i = 0; i < 5; i++) {
+                final AttendeeJpa attendee = new AttendeeJpa();
+                attendee.setName("d#" + i);
+                attendee.getSlot().add(slot);
+                em.persist(attendee);
+            }
+            ut.commit();
+        }
+        assertEquals(5, slotService.count(em.find(SlotJpa.class, "decr")));
+
+        for (int i = 0; i < 5; i++) {
+            name = "d#" + i;
+            slotService.removeAttendeeFromSlot("decr");
+            assertEquals(5 - i - 1, slotService.count(em.find(SlotJpa.class, "decr")));
+        }
+        for (int i = 5; i < 10; i++) {
+            name = "d#" + i;
+            slotService.removeAttendeeFromSlot("decr");
+            assertEquals(0, slotService.count(em.find(SlotJpa.class, "decr")));
+        }
+    }
+
+    @Test
     public void getAttendeesBySlotId() throws Exception{
         SlotJpa slot1 = new SlotJpa();
         slot1.setId("slot1");

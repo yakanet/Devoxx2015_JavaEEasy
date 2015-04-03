@@ -27,6 +27,41 @@ public class SlotService {
     private Principal principal;
 
     @Transactional
+    public SlotJpa addAttendeeToSlot(final String slotId) {
+        final SlotJpa slot = findById(slotId);
+        if (slot == null) {
+            return null;
+        }
+
+        AttendeeJpa attendee = findAttendee(principal.getName());
+        if (attendee == null) {
+            attendee = createAttendee();
+        }
+        if (isAttendeeParticipatingToSlot(slot, attendee)) {
+            return slot;
+        }
+
+        attendee.getSlot().add(slot);
+        return slot;
+    }
+
+    @Transactional
+    public SlotJpa removeAttendeeFromSlot(final String slotId) {
+        final SlotJpa slot = findById(slotId);
+        if (slot == null) {
+            return null;
+        }
+
+        AttendeeJpa attendee = findAttendee(principal.getName());
+        if (attendee == null || !isAttendeeParticipatingToSlot(slot, attendee)) {
+            return slot;
+        }
+
+        attendee.getSlot().remove(slot);
+        return slot;
+    }
+
+    @Transactional
     public SlotJpa findById(final String id) {
         return em.find(SlotJpa.class, id);
     }

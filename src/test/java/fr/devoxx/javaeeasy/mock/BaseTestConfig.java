@@ -4,6 +4,7 @@ import java.net.URL;
 
 import javax.inject.Inject;
 
+import fr.devoxx.javaeeasy.services.business.SlotService;
 import org.apache.openejb.junit.ApplicationRule;
 import org.apache.openejb.junit.ContainerRule;
 import org.apache.openejb.testing.Classes;
@@ -37,12 +38,12 @@ public class BaseTestConfig {
         @Inject
         private DevoxxClient client;
 
-//        @Inject
-//        private SlotService slotService;
-//
-//        public SlotService getSlotService() {
-//            return slotService;
-//        }
+        @Inject
+        private SlotService slotService;
+
+        public SlotService getSlotService() {
+            return slotService;
+        }
 
         public DevoxxClient getClient() {
             return client;

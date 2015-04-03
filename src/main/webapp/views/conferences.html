@@ -11,7 +11,8 @@
 	</div>
 </div>
 <slot
-	ng-repeat="evt in agenda | filter:{day : day} | filter:selected | orderBy:'fromTimeMillis'"
-	event="evt"
-    attendee="attendees[evt.slotId]">
+		ng-repeat="evt in agenda | filter:{day : day} | filter:selected | orderBy:'fromTimeMillis'"
+		event="evt"
+		attendee="attendees[evt.slotId]"
+		ng-click="select(evt)">
 </slot>

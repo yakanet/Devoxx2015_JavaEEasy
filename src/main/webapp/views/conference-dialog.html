@@ -1,0 +1,21 @@
+<div class="modal-header">
+    <span class="pull-right close" ng-click="cancel()">&times;</span>
+    <h3 class="modal-title">{{conference.talk.title}}</h3>
+</div>
+<div class="modal-body row">
+    <div class="col-md-8">
+        <div ng-bind-html="conference.talk.summaryAsHtml"></div>
+    </div>
+    <div class="col-md-4">
+        <div>
+            {{conference.fromTime}} - {{conference.toTime}}
+        </div>
+        <div>
+            Where : {{conference.roomName}}
+        </div>
+    </div>
+</div>
+<div class="modal-footer">
+    <button class="btn btn-warning" ng-click="submit('unregister')" ng-show="isAttending">Se desabonner</button>
+    <button class="btn btn-primary" ng-click="submit('register')" ng-show="!isAttending">S'enregistrer</button>
+</div>

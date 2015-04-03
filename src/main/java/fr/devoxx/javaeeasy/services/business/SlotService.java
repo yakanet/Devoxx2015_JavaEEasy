@@ -32,51 +32,13 @@ public class SlotService {
     }
 
     public int count(final SlotJpa slot) {
-        return em.createNamedQuery("Attendee.countBySlot", Number.class)
-                .setParameter("slot", slot)
-                .getSingleResult()
-                .intValue();
+        return -1;
     }
 
-    @Transactional
-    public Collection<String> getAllocatedSlotIdsForAttendee(String name) {
-        Collection<String> slotIds = new LinkedList<>();
-        AttendeeJpa attendee = findAttendee(name);
-        if (attendee != null) {
-            attendee.getSlot().forEach(slotJpa -> slotIds.add(slotJpa.getId()));
-        }
-        return slotIds;
-    }
 
     public Map<String, Integer> getAttendeesCountGroupedBySlotId() {
-        return em.createNamedQuery("Attendee.countGroupByAllSlot", Object[].class)
-                .getResultList().stream()
-                .collect(toMap(tuple -> (String) tuple[0], tuple -> Number.class.cast(tuple[1]).intValue()));
+        return null;
     }
 
-    private boolean isAttendeeParticipatingToSlot(final SlotJpa slot, final AttendeeJpa attendee) {
-        return em.createNamedQuery("Attendee.findByNameAndSlot", Number.class)
-                .setParameter("name", attendee.getName())
-                .setParameter("slot", slot)
-                .getSingleResult()
-                .intValue() > 0;
-    }
-
-    private AttendeeJpa findAttendee(String name) {
-        try {
-            return em.createNamedQuery("Attendee.findByName", AttendeeJpa.class)
-                    .setParameter("name", name)
-                    .getSingleResult();
-        } catch (final NoResultException nre) {
-            return null;
-        }
-    }
-
-    private AttendeeJpa createAttendee() {
-        final AttendeeJpa attendee = new AttendeeJpa();
-        attendee.setName(principal.getName());
-        em.persist(attendee);
-        return attendee;
-    }
 
 }

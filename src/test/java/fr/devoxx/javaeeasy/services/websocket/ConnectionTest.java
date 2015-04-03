@@ -12,7 +12,6 @@ import java.io.IOException;
 import java.io.Reader;
 import java.net.URI;
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.Collection;
 import java.util.Iterator;
 import java.util.LinkedList;
@@ -33,7 +32,7 @@ import javax.websocket.OnMessage;
 import javax.websocket.Session;
 import javax.websocket.WebSocketContainer;
 
-import static java.util.Arrays.asList;
+import static java.util.Collections.singletonList;
 import static javax.xml.bind.DatatypeConverter.printBase64Binary;
 import static org.junit.Assert.assertEquals;
 
@@ -64,10 +63,10 @@ public class ConnectionTest {
                 .configurator(new ClientEndpointConfig.Configurator() {
                     @OnMessage
                     public void beforeRequest(final Map<String, List<String>> headers) {
-                        headers.put("Authorization", asList("Basic " + printBase64Binary("devoxx:devoxx".getBytes())));
+                        headers.put("Authorization", singletonList("Basic " + printBase64Binary("devoxx:devoxx".getBytes())));
                     }
                 })
-                .decoders(Arrays.<Class<? extends Decoder>>asList(JsonDecoder.class))
+                .decoders(singletonList(JsonDecoder.class))
                 .build();
 
         // config is ready, just connect and wait for messages coming from the server

@@ -54,13 +54,6 @@ public class SlotService {
                 .collect(toMap(tuple -> (String) tuple[0], tuple -> Number.class.cast(tuple[1]).intValue()));
     }
 
-    private boolean isAttendeeParticipatingToSlot(final SlotJpa slot, final AttendeeJpa attendee) {
-        return em.createNamedQuery("Attendee.findByNameAndSlot", Number.class)
-                .setParameter("name", attendee.getName())
-                .setParameter("slot", slot)
-                .getSingleResult()
-                .intValue() > 0;
-    }
 
     private AttendeeJpa findAttendee(String name) {
         try {
@@ -72,11 +65,5 @@ public class SlotService {
         }
     }
 
-    private AttendeeJpa createAttendee() {
-        final AttendeeJpa attendee = new AttendeeJpa();
-        attendee.setName(principal.getName());
-        em.persist(attendee);
-        return attendee;
-    }
 
 }

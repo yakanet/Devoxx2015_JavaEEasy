@@ -1,0 +1,2622 @@
+{
+  "slots": [
+    {
+      "roomId": "a_hall",
+      "notAllocated": false,
+      "fromTimeMillis": 1415862000000,
+      "break": {
+        "id": "dej",
+        "nameEN": "Breakfast",
+        "nameFR": "Accueil et petit-déjeuner",
+        "room": {
+          "id": "a_hall",
+          "name": "Exhibition floor",
+          "capacity": 1500,
+          "recorded": false,
+          "setup": "special"
+        }
+      },
+      "roomSetup": "special",
+      "talk": null,
+      "fromTime": "08:00",
+      "toTimeMillis": 1415867400000,
+      "toTime": "09:30",
+      "roomCapacity": 1500,
+      "roomName": "Exhibition floor",
+      "slotId": "dej_thursday_13_8h0_8h30",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415867400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Keynote",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>Google keynote</p>\n",
+        "id": "TLO-0661",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/b533c53e0469ad2b77d7a09432e72b7fb68954db",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Chet Haase"
+            },
+            "name": "Chet Haase"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/5148f7de154d0191277a8f956217014de33193be",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Nick Butcher"
+            },
+            "name": "Nick Butcher"
+          }
+        ],
+        "title": "Material Witness – the state of software design across mobile and web platforms",
+        "lang": "en",
+        "summary": "Google keynote"
+      },
+      "fromTime": "09:30",
+      "toTimeMillis": 1415871000000,
+      "toTime": "10:30",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "key_room8_thursday_13_9h30_10h30",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": true,
+      "fromTimeMillis": 1415867400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": null,
+      "fromTime": "09:30",
+      "toTimeMillis": 1415871000000,
+      "toTime": "10:30",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "key_room4_thursday_13_9h30_10h30",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": true,
+      "fromTimeMillis": 1415867400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": null,
+      "fromTime": "09:30",
+      "toTimeMillis": 1415871000000,
+      "toTime": "10:30",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "key_room5_thursday_13_9h30_10h30",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": true,
+      "fromTimeMillis": 1415867400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": null,
+      "fromTime": "09:30",
+      "toTimeMillis": 1415871000000,
+      "toTime": "10:30",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "key_room9_thursday_13_9h30_10h30",
+      "day": "thursday"
+    },
+    {
+      "roomId": "a_hall",
+      "notAllocated": false,
+      "fromTimeMillis": 1415871000000,
+      "break": {
+        "id": "coffee",
+        "nameEN": "Coffee Break",
+        "nameFR": "Pause café",
+        "room": {
+          "id": "a_hall",
+          "name": "Exhibition floor",
+          "capacity": 1500,
+          "recorded": false,
+          "setup": "special"
+        }
+      },
+      "roomSetup": "special",
+      "talk": null,
+      "fromTime": "10:30",
+      "toTimeMillis": 1415872200000,
+      "toTime": "10:50",
+      "roomCapacity": 1500,
+      "roomName": "Exhibition floor",
+      "slotId": "coffee_thursday_13_10h30_9h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415872200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>This session presents selected Spring Framework 4 feature highlights, with a focus on the recently released Spring Framework 4.1. Topics include Spring 4&#x27;s comprehensive Java 8 story, its WebSocket support, and the latest caching and messaging features in Spring 4.1 - illustrated with component code examples and noteworthy design considerations.</p>\n",
+        "id": "HRY-1932",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/e2515b19e19082dc51d53052929a2b9cc3475eff",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Juergen Hoeller"
+            },
+            "name": "Juergen Hoeller"
+          }
+        ],
+        "title": "Modern Enterprise Java Architectures with Spring 4.1",
+        "lang": "en",
+        "summary": "This session presents selected Spring Framework 4 feature highlights, with a focus on the recently released Spring Framework 4.1. Topics include Spring 4's comprehensive Java 8 story, its WebSocket support, and the latest caching and messaging features in Spring 4.1 - illustrated with component code examples and noteworthy design considerations."
+      },
+      "fromTime": "10:50",
+      "toTimeMillis": 1415875800000,
+      "toTime": "11:50",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "conf_room8_thursday_13_10h50_11h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1415872200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>An overview of the current state of developers features in the Android platform.</p>\n",
+        "id": "SGL-2641",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/b533c53e0469ad2b77d7a09432e72b7fb68954db",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Chet Haase"
+            },
+            "name": "Chet Haase"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/216d76084fbde66bd0103b0f5001881ccbfee957",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Romain Guy"
+            },
+            "name": "Romain Guy"
+          }
+        ],
+        "title": "What's new with Android Lollipop",
+        "lang": "en",
+        "summary": "An overview of the current state of developers features in the Android platform."
+      },
+      "fromTime": "10:50",
+      "toTimeMillis": 1415875800000,
+      "toTime": "11:50",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "conf_room5_thursday_13_10h50_11h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1415872200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>The state of the build infrastructure for medium and large projects is often full of inefficiencies that severely affect developer productivity and time to market. How can those projects use the unique capabilities of Gradle to scale their build infrastructure? This session discusses how to solve the challenges of standardization, feedback time, dependency management, multilanguage builds, and automatic build infrastructure provisioning. This session also looks at organizations such as Netflix and LinkedIn and how they scale with Gradle across hundreds or thousands of developers.</p>\n",
+        "id": "OON-6615",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/8758fe22aefa09b5eb0bcf3c27e787aebb2c8ec3",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Hans Dockter"
+            },
+            "name": "Hans Dockter"
+          }
+        ],
+        "title": "Create Elegant Builds at Scale with Gradle",
+        "lang": "en",
+        "summary": "The state of the build infrastructure for medium and large projects is often full of inefficiencies that severely affect developer productivity and time to market. How can those projects use the unique capabilities of Gradle to scale their build infrastructure? This session discusses how to solve the challenges of standardization, feedback time, dependency management, multilanguage builds, and automatic build infrastructure provisioning. This session also looks at organizations such as Netflix and LinkedIn and how they scale with Gradle across hundreds or thousands of developers. "
+      },
+      "fromTime": "10:50",
+      "toTimeMillis": 1415875800000,
+      "toTime": "11:50",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "conf_room9_thursday_13_10h50_11h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1415872200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Web & HTML5",
+        "summaryAsHtml": "<p>Every developer tends to reinvent the wheel over and over and over and over again. How do you prevent multiple implementations of the same functionality? How do you guarantee a uniform user experience (UX) across hundreds of pages and lots of different small web applications and 300 developers.</p>\n<p>In this talk we will address our experiences in moving the biggest online banking website in the Netherlands from a traditional JSP based web application towards a SPA using <em>AngularJS</em>.</p>\n<p>We will demonstrate how and why we have build a component library and style guide. On top of that we have build a documentation application which:</p>\n<ul>\n<li>Allows the UX-designer to rapidly make prototypes</li>\n<li>Forces UX-designers to think of the big picture</li>\n<li>Allows the developers to use ready made components and markup straight from UX</li>\n<li>Tries to bridges the gap between outrages UX designs and technical limitations</li>\n</ul>\n<p>Topics that will be addressed in this talk:</p>\n<ul>\n<li>Building and testing shared UX components with <em>AngularJS</em>, <em>Karma</em> and <em>Protractor</em></li>\n<li>Testing shared CSS library components and markup with <em>Galen</em></li>\n<li>Demonstrate changeability of look and feel in live applications</li>\n<li>Using <em>PageObjects</em> to minimize impact</li>\n</ul>\n",
+        "id": "GNZ-6136",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/1414334a82dc3dc7ba375e084ecece02f6ab31e2",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Mischa Dasberg"
+            },
+            "name": "Mischa Dasberg"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/a04c35a46174bfbc9b1fb49c29e9e399d6b16987",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Remco Vlierman"
+            },
+            "name": "Remco Vlierman"
+          }
+        ],
+        "title": "Enterprise scale AngularJS: Component library and Style guide",
+        "lang": "en",
+        "summary": "Every developer tends to reinvent the wheel over and over and over and over again. How do you prevent multiple implementations of the same functionality? How do you guarantee a uniform user experience (UX) across hundreds of pages and lots of different small web applications and 300 developers.\r\n\r\nIn this talk we will address our experiences in moving the biggest online banking website in the Netherlands from a traditional JSP based web application towards a SPA using _AngularJS_.\r\n\r\nWe will demonstrate how and why we have build a component library and style guide. On top of that we have build a documentation application which:\r\n\r\n- Allows the UX-designer to rapidly make prototypes\r\n- Forces UX-designers to think of the big picture\r\n- Allows the developers to use ready made components and markup straight from UX\r\n- Tries to bridges the gap between outrages UX designs and technical limitations\r\n\r\nTopics that will be addressed in this talk:\r\n\r\n- Building and testing shared UX components with _AngularJS_, _Karma_ and _Protractor_\r\n- Testing shared CSS library components and markup with _Galen_\r\n- Demonstrate changeability of look and feel in live applications\r\n- Using _PageObjects_ to minimize impact"
+      },
+      "fromTime": "10:50",
+      "toTimeMillis": 1415875800000,
+      "toTime": "11:50",
+      "roomCapacity": 407,
+      "roomName": "Room 6",
+      "slotId": "conf_room6_thursday_13_10h50_11h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room7",
+      "notAllocated": false,
+      "fromTimeMillis": 1415872200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>How many times have been told how functional programming is so much better than imperative, and then being presented with a functional approach to calculating a fibonacci sequence, leaving you wondering how that can be even remotely useful when working in real world applications? Yep, we’ve all been there. It seems that every time someone wants to explain functional programming to us, it’s around how to solve some mathematical problem. But how does that provide us value? How do we deal with things like grouping functionality, loose coupling and consequently dependency injection?\nJoin this journey where we’ll look at code we usually write when developing business applications and how to refactor this using functional paradigms, and more importantly, see if these provide us with any value.</p>\n",
+        "id": "GDJ-2242",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/b59e28507facc41372a444cecbcf548f480b60d6",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Hadi Hariri"
+            },
+            "name": "Hadi Hariri"
+          }
+        ],
+        "title": "Refactoring to Functional",
+        "lang": "en",
+        "summary": "How many times have been told how functional programming is so much better than imperative, and then being presented with a functional approach to calculating a fibonacci sequence, leaving you wondering how that can be even remotely useful when working in real world applications? Yep, we’ve all been there. It seems that every time someone wants to explain functional programming to us, it’s around how to solve some mathematical problem. But how does that provide us value? How do we deal with things like grouping functionality, loose coupling and consequently dependency injection? \r\nJoin this journey where we’ll look at code we usually write when developing business applications and how to refactor this using functional paradigms, and more importantly, see if these provide us with any value. \r\n"
+      },
+      "fromTime": "10:50",
+      "toTimeMillis": 1415875800000,
+      "toTime": "11:50",
+      "roomCapacity": 407,
+      "roomName": "Room 7",
+      "slotId": "conf_room7_thursday_13_10h50_11h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1415872200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>Shazam is a very popular audio recognition app. It is installed on 100M+ Android devices and it’s growing rapidly.</p>\n<p>In this talk, I’d like to address how we’ve made our releases schedule faster, more predictable and with more features by using BDD and automation testing. I’ll demonstrate how that can be done without slowing down or hindering the development process and why our developers actually find writing tests is fun. Finally, we’ll look at how our testing strategy has translated to our testing framework and hardware infrastructure.</p>\n",
+        "id": "YQJ-0562",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/01f43afa10ab00fd579382bfc8ea72de6470617f",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Iordanis Giannakakis"
+            },
+            "name": "Iordanis Giannakakis"
+          }
+        ],
+        "title": "How to build rock-solid apps and keep 100M+ users happy",
+        "lang": "en",
+        "summary": "Shazam is a very popular audio recognition app. It is installed on 100M+ Android devices and it’s growing rapidly.\r\n\r\nIn this talk, I’d like to address how we’ve made our releases schedule faster, more predictable and with more features by using BDD and automation testing. I’ll demonstrate how that can be done without slowing down or hindering the development process and why our developers actually find writing tests is fun. Finally, we’ll look at how our testing strategy has translated to our testing framework and hardware infrastructure."
+      },
+      "fromTime": "10:50",
+      "toTimeMillis": 1415875800000,
+      "toTime": "11:50",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "conf_room4_thursday_13_10h50_11h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415872200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Startups",
+        "summaryAsHtml": "<p>Everybody and their dog seems to have a startup these days. Thanks to titles such as “The Lean Startup,” there is a race for teams to “iterate, add value, have sprints, and do devops!” For the vast majority of startups, this means a race to WAT, a pileup of technology and business practices that turn the startup into a car crash disaster of tears and recriminations. Over the past 2 years, the Diabolical Developer has served as both the CTO and CEO of jClarity as well as acting in an advisory capacity to the London startup scene (a.k.a. Silicon Roundabout). In this session, he unveils the truth; showcase several WATs; and, most importantly, tell you what not to do, from bitter firsthand, secondhand, and thirdhand experience.</p>\n",
+        "id": "PVG-6654",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/9f17f819d202fd15d48aaad29ed288da86ed62b6",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Martijn Verburg"
+            },
+            "name": "Martijn Verburg"
+          }
+        ],
+        "title": "The Lean Start-Up Ninja",
+        "lang": "en",
+        "summary": "Everybody and their dog seems to have a startup these days. Thanks to titles such as “The Lean Startup,” there is a race for teams to “iterate, add value, have sprints, and do devops!” For the vast majority of startups, this means a race to WAT, a pileup of technology and business practices that turn the startup into a car crash disaster of tears and recriminations. Over the past 2 years, the Diabolical Developer has served as both the CTO and CEO of jClarity as well as acting in an advisory capacity to the London startup scene (a.k.a. Silicon Roundabout). In this session, he unveils the truth; showcase several WATs; and, most importantly, tell you what not to do, from bitter firsthand, secondhand, and thirdhand experience."
+      },
+      "fromTime": "10:50",
+      "toTimeMillis": 1415875800000,
+      "toTime": "11:50",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "conf_room3_thursday_13_10h50_11h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415876400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Future<Devoxx>",
+        "summaryAsHtml": "<p>A talk about the next step of immersion. When science fiction and movie scripts are not wrong and our desires come true: Virtual reality is nearly here. What is it and how can you take part at it and how you can get started with VR using Cardboard.</p>\n",
+        "id": "WRR-6225",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/9aa102397adc0e9746a72354b32befff4c20733b",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Shanee Nishry"
+            },
+            "name": "Shanee Nishry"
+          }
+        ],
+        "title": "Senses Override (Cardboard)",
+        "lang": "en",
+        "summary": "A talk about the next step of immersion. When science fiction and movie scripts are not wrong and our desires come true: Virtual reality is nearly here. What is it and how can you take part at it and how you can get started with VR using Cardboard."
+      },
+      "fromTime": "12:00",
+      "toTimeMillis": 1415880000000,
+      "toTime": "13:00",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "conf_room8_thursday_13_12h0_13h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1415876400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>During the nearly twenty years of evolution of Java, a set of API design idioms and styles have emerged, based on the existing language features and APIs. Certain language features, such as generics, have had great impact: twelve years after generics, APIs that use raw types look distinctly old-fashioned.</p>\n<p>Java 8 has introduced lambdas, perhaps the most significant new language feature in Java&#x27;s history. Lambdas introduce new capabilities to the API designer: the ability to parameterize by behavior, and the ability to use higher-order functions.</p>\n<p>Java 8 has also introduced default methods, which allow implementations to appear on interfaces. Along with the language changes, Java 8 has also introduced significant new core APIs, including the Streams package, the Optional class, and new default method implementations on existing interfaces. These changes raise new design issues for API designers.</p>\n<p>These new language and core API features create opportunities for designers to make their APIs more concise and more expressive. In this talk we will examine a variety of techniques and idioms enabled by these new features, and show how API design has already begun to evolve in Java 8.</p>\n",
+        "id": "OEH-2760",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/a58ccd51e350fccb540ea5548cef107785624501",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Stuart Marks"
+            },
+            "name": "Stuart Marks"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/a4cb83b34e086e694a1dff20ef79d60060b719e2",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Brian Goetz"
+            },
+            "name": "Brian Goetz"
+          }
+        ],
+        "title": "API Design With Java 8 Lambda and Streams",
+        "lang": "en",
+        "summary": "During the nearly twenty years of evolution of Java, a set of API design idioms and styles have emerged, based on the existing language features and APIs. Certain language features, such as generics, have had great impact: twelve years after generics, APIs that use raw types look distinctly old-fashioned.\r\n\r\nJava 8 has introduced lambdas, perhaps the most significant new language feature in Java's history. Lambdas introduce new capabilities to the API designer: the ability to parameterize by behavior, and the ability to use higher-order functions.\r\n\r\nJava 8 has also introduced default methods, which allow implementations to appear on interfaces. Along with the language changes, Java 8 has also introduced significant new core APIs, including the Streams package, the Optional class, and new default method implementations on existing interfaces. These changes raise new design issues for API designers.\r\n\r\nThese new language and core API features create opportunities for designers to make their APIs more concise and more expressive. In this talk we will examine a variety of techniques and idioms enabled by these new features, and show how API design has already begun to evolve in Java 8."
+      },
+      "fromTime": "12:00",
+      "toTimeMillis": 1415880000000,
+      "toTime": "13:00",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "conf_room5_thursday_13_12h0_13h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1415876400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Web & HTML5",
+        "summaryAsHtml": "<p>React.js is a view library from Facecbook for building performant user-interfaces in JavaScript. In this session, we&#x27;ll explore React.js and understand why it&#x27;s a great step forward for building complex UI&#x27;s that run fast. We&#x27;ll code up an example web application using React.js and step through the basics of using the library while discussing concepts like the shadow DOM and components.</p>\n",
+        "id": "OVT-6374",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/ceaae58d27f44911a9173cd75d0ac2b82a8cb15f",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Pratik Patel"
+            },
+            "name": "Pratik Patel"
+          }
+        ],
+        "title": "React.js: Super-fast Single Page Web Applications",
+        "lang": "en",
+        "summary": "React.js is a view library from Facecbook for building performant user-interfaces in JavaScript. In this session, we'll explore React.js and understand why it's a great step forward for building complex UI's that run fast. We'll code up an example web application using React.js and step through the basics of using the library while discussing concepts like the shadow DOM and components."
+      },
+      "fromTime": "12:00",
+      "toTimeMillis": 1415880000000,
+      "toTime": "13:00",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "conf_room9_thursday_13_12h0_13h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1415876400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>Any modern web application today sports a rich and powerful user interface with sophisticated business logic built right in to the UI. The behaviour of the UI is an integral part of the user experience. For modern web applications, automated web tests are an essential part of your testing arsenal.</p>\n<p>But at the same time automated web testing is hard. Web tests can be fragile, and easily broken by small UI changes. They can be complex, and hard to trouble-shoot when something goes wrong.</p>\n<p>This session is a live coding demonstration using a live, real-world web site. We will be going from automated acceptance criteria using Cucumber-JVM and Thucydides to working automated acceptance tests and living documentation. You will learn:\n- When to write web tests, and when not to write them\n- Techniques to make your web tests easier to maintain and easier to update\n- Tips and tricks for automating modern, javascript-based web applications using Selenium 2/WebDriver.</p>\n",
+        "id": "RVR-0495",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/a298ec44a3134ca0575b33a9a241cce5b5e3c189",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "John Smart"
+            },
+            "name": "John Smart"
+          }
+        ],
+        "title": "BDD in Action: automated web testing like there is a tomorrow",
+        "lang": "en",
+        "summary": "Any modern web application today sports a rich and powerful user interface with sophisticated business logic built right in to the UI. The behaviour of the UI is an integral part of the user experience. For modern web applications, automated web tests are an essential part of your testing arsenal.\r\n\r\nBut at the same time automated web testing is hard. Web tests can be fragile, and easily broken by small UI changes. They can be complex, and hard to trouble-shoot when something goes wrong. \r\n\r\nThis session is a live coding demonstration using a live, real-world web site. We will be going from automated acceptance criteria using Cucumber-JVM and Thucydides to working automated acceptance tests and living documentation. You will learn:\r\n\t- When to write web tests, and when not to write them\r\n\t- Techniques to make your web tests easier to maintain and easier to update\r\n\t- Tips and tricks for automating modern, javascript-based web applications using Selenium 2/WebDriver."
+      },
+      "fromTime": "12:00",
+      "toTimeMillis": 1415880000000,
+      "toTime": "13:00",
+      "roomCapacity": 407,
+      "roomName": "Room 6",
+      "slotId": "conf_room6_thursday_13_12h0_13h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room7",
+      "notAllocated": false,
+      "fromTimeMillis": 1415876400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>The coming Internet of Things wave is all about controlling and interacting with embedded devices in all facets of life, from the home transportation to industrial automation and more. Oak (Java) was designed for just this future and is the perfect platform from which to deliver IoT solutions. This sessions talks about programming architectures and tools that can be used to extend logic from the data center down to devices in the real world; how to manage them, how to control them, and how to run code remotely on them, all using API and programming techniques you are already proficient with.</p>\n",
+        "id": "TLD-7620",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/e06edf691dbb63fd62905ed7882972848bffefaa",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Jasper Potts"
+            },
+            "name": "Jasper Potts"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/1bfdbbe8567c72fa61f952a5d0511960645f510a",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Richard Bair"
+            },
+            "name": "Richard Bair"
+          }
+        ],
+        "title": "Programming the Real World",
+        "lang": "en",
+        "summary": "The coming Internet of Things wave is all about controlling and interacting with embedded devices in all facets of life, from the home transportation to industrial automation and more. Oak (Java) was designed for just this future and is the perfect platform from which to deliver IoT solutions. This sessions talks about programming architectures and tools that can be used to extend logic from the data center down to devices in the real world; how to manage them, how to control them, and how to run code remotely on them, all using API and programming techniques you are already proficient with."
+      },
+      "fromTime": "12:00",
+      "toTimeMillis": 1415880000000,
+      "toTime": "13:00",
+      "roomCapacity": 407,
+      "roomName": "Room 7",
+      "slotId": "conf_room7_thursday_13_12h0_13h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1415876400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>Source code is rarely understood by the business people. So we write user stories, epics or other forms of textual requirement specifications to discuss features and changes. What if you could have these discussions based on graphical models and then make them part of your code?\nThe Business Process Model and Notation (BPMN) is a worldwide ISO standard not only to draw but also to execute business processes. Camunda is an Open Source platform for workflow and business process automation. It executes BPMN 2.0, is very light-weight and scales like hell. Additionally camunda contains the first Open Source implementation of a new standard called Case Management Model and Notation (CMMN), which handles situations where users need more flexibility to decide on next actions. The engine is implemented in Java, but can also be used in other languages through its REST API or JavaScript SDK.\nThis session gives a hands-on introduction to the Open Source camunda BPM platform - expect more live coding than slides. Furthermore, we want to share insights of our real-life project experience, for example Zalando processing huge amounts of orders over the platform.</p>\n",
+        "id": "ZMW-5425",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/c18380fc13b69fdf2c2973c5e190157eed0b98fc",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Bernd Rücker"
+            },
+            "name": "Bernd Rücker"
+          }
+        ],
+        "title": "Workflows the Open Source way - with BPMN 2.0 and camunda BPM",
+        "lang": "en",
+        "summary": "Source code is rarely understood by the business people. So we write user stories, epics or other forms of textual requirement specifications to discuss features and changes. What if you could have these discussions based on graphical models and then make them part of your code?\r\nThe Business Process Model and Notation (BPMN) is a worldwide ISO standard not only to draw but also to execute business processes. Camunda is an Open Source platform for workflow and business process automation. It executes BPMN 2.0, is very light-weight and scales like hell. Additionally camunda contains the first Open Source implementation of a new standard called Case Management Model and Notation (CMMN), which handles situations where users need more flexibility to decide on next actions. The engine is implemented in Java, but can also be used in other languages through its REST API or JavaScript SDK.\r\nThis session gives a hands-on introduction to the Open Source camunda BPM platform - expect more live coding than slides. Furthermore, we want to share insights of our real-life project experience, for example Zalando processing huge amounts of orders over the platform."
+      },
+      "fromTime": "12:00",
+      "toTimeMillis": 1415880000000,
+      "toTime": "13:00",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "conf_room4_thursday_13_12h0_13h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415876400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Startups",
+        "summaryAsHtml": "<p>Marketing is death! Long live Growth Hacking!\nDigital Growth (Hacking) is the new norm putting software engineers in the driver&#x27;s seat for marketing and sales too!\nThis session will cover:\n- Growth Hacking demystified\n- How do you grow and expand your company with almost no marketing budget?\n- What are the levers available to you to grow your company with a near-zero budget?</p>\n",
+        "id": "DGQ-8768",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/032a328b7e8bc15f7da7673f7e0ff1e2b675ac5d",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Omar Mohout"
+            },
+            "name": "Omar Mohout"
+          }
+        ],
+        "title": "Growth Hacking demystified",
+        "lang": "en",
+        "summary": "Marketing is death! Long live Growth Hacking!\r\nDigital Growth (Hacking) is the new norm putting software engineers in the driver's seat for marketing and sales too!\r\nThis session will cover:\r\n- Growth Hacking demystified\r\n- How do you grow and expand your company with almost no marketing budget?\r\n- What are the levers available to you to grow your company with a near-zero budget?"
+      },
+      "fromTime": "12:00",
+      "toTimeMillis": 1415880000000,
+      "toTime": "13:00",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "conf_room3_thursday_13_12h0_13h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "a_hall",
+      "notAllocated": false,
+      "fromTimeMillis": 1415880000000,
+      "break": {
+        "id": "lunch",
+        "nameEN": "Lunch",
+        "nameFR": "Pause déjeuner",
+        "room": {
+          "id": "a_hall",
+          "name": "Exhibition floor",
+          "capacity": 1500,
+          "recorded": false,
+          "setup": "special"
+        }
+      },
+      "roomSetup": "special",
+      "talk": null,
+      "fromTime": "13:00",
+      "toTimeMillis": 1415883600000,
+      "toTime": "14:00",
+      "roomCapacity": 1500,
+      "roomName": "Exhibition floor",
+      "slotId": "lunch_thursday_13_13h0_13h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415880600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>Are you a Java developer and you&#x27;ve seen the fluent and modern specification frameworks available in other programming languages such as spock or jasmine and wondering why we can&#x27;t have the same thing?</p>\n<p>Then Lambda Behave is made for you! It uses numerous Java 8 features in order to enable cleaner and more readable tests and specifications. This quickie will introduce the framework, explain why you would want to use it over junit and cover some of its cool features, including:</p>\n<ul>\n<li>How to write fluent and clean specifications in your domain language</li>\n<li>How to write data driven specifications</li>\n<li>How to integrate these into your build tool or IDE</li>\n<li>How IDE usage can influence library design for the better</li>\n</ul>\n<p>http://richardwarburton.github.io/lambda-behave/</p>\n",
+        "id": "NLP-3929",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/7d5ef7abaae2d41369626d5f74ac3e37db63a0be",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Richard Warburton"
+            },
+            "name": "Richard Warburton"
+          }
+        ],
+        "title": "Lambda Behave: A modern testing and behavioural specification framework for Java 8",
+        "lang": "en",
+        "summary": "Are you a Java developer and you've seen the fluent and modern specification frameworks available in other programming languages such as spock or jasmine and wondering why we can't have the same thing?\r\n\r\nThen Lambda Behave is made for you! It uses numerous Java 8 features in order to enable cleaner and more readable tests and specifications. This quickie will introduce the framework, explain why you would want to use it over junit and cover some of its cool features, including:\r\n\r\n * How to write fluent and clean specifications in your domain language\r\n * How to write data driven specifications\r\n * How to integrate these into your build tool or IDE\r\n * How IDE usage can influence library design for the better\r\n\r\nhttp://richardwarburton.github.io/lambda-behave/"
+      },
+      "fromTime": "13:10",
+      "toTimeMillis": 1415881500000,
+      "toTime": "13:25",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "quick_room8_thursday_13_13h10_13h25",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1415880600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>The Business Process Model and Notation (BPMN) is a wordwide ISO standard not only to draw but also to execute business processes. As Java developer you should not be afraid of BPMN thanks to a new generation of embeddable workflow/process engines. This session gives a hands-on introduction into the Open Source camunda BPM platform - expect more live coding than slides. Furthermore I want to share insights of our real-life project experience, for example Zalando processing huge amounts of orders over the platform. Afterwards you are able to decide if and how you may apply camunda in your own (workflow) project.</p>\n",
+        "id": "WUS-3861",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/750ed566609391c0920a0d6d0698e6e26d5de718",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Falko Menge"
+            },
+            "name": "Falko Menge"
+          }
+        ],
+        "title": "Open Source workflows with BPMN 2.0, Java and camunda BPM",
+        "lang": "en",
+        "summary": "The Business Process Model and Notation (BPMN) is a wordwide ISO standard not only to draw but also to execute business processes. As Java developer you should not be afraid of BPMN thanks to a new generation of embeddable workflow/process engines. This session gives a hands-on introduction into the Open Source camunda BPM platform - expect more live coding than slides. Furthermore I want to share insights of our real-life project experience, for example Zalando processing huge amounts of orders over the platform. Afterwards you are able to decide if and how you may apply camunda in your own (workflow) project."
+      },
+      "fromTime": "13:10",
+      "toTimeMillis": 1415881500000,
+      "toTime": "13:25",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "quick_room5_thursday_13_13h10_13h25",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1415880600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>Within the nexuz Health medical joint venture, we recently started building mobile (android) applications for both medical staff and patients. As we work with sensitive data (patient records), we have to take high security measures within all our (mobile) applications (strong authentication, encryption all the way down, etc). We would like to present our approach and work (to be done), arousing and triggering interesting discussions afterwards.</p>\n",
+        "id": "NPS-8985",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/73869f2bb266ab56dcbaea3e4e9a37bb2eef75d3",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Johan Cloetens"
+            },
+            "name": "Johan Cloetens"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/a1a3446dcd81f16624a476a9b7081c1438350c54",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Raf Van Durm"
+            },
+            "name": "Raf Van Durm"
+          }
+        ],
+        "title": "Mobile nexuz Health ",
+        "lang": "en",
+        "summary": "Within the nexuz Health medical joint venture, we recently started building mobile (android) applications for both medical staff and patients. As we work with sensitive data (patient records), we have to take high security measures within all our (mobile) applications (strong authentication, encryption all the way down, etc). We would like to present our approach and work (to be done), arousing and triggering interesting discussions afterwards."
+      },
+      "fromTime": "13:10",
+      "toTimeMillis": 1415881500000,
+      "toTime": "13:25",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "quick_room9_thursday_13_13h10_13h25",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1415880600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>With the inclusion of lambda expressions in Java 8, we Java developers find ourselves with a powerful new tool under our belt. You have probably noticed the recent excitement surrounding functional programming. But did you know that lambda expressions also bring Java closer to its object-oriented roots?</p>\n<p>The Smalltalk programming language shows how the basic ingredients of objects, methods and lambdas can be used to solve any task. We will look at how lambdas can be used to solve a multitude of tasks such as conditional processing, conditional logic, iteration and looping.</p>\n<p>I hope it will stimulate your creativity, to see whole new possibilities and discover additional uses of lambda.</p>\n",
+        "id": "CUG-0775",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/e1d0104ce37d6b5c5c49a712c747f6ca81aee184",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Martin Skarsaune"
+            },
+            "name": "Martin Skarsaune"
+          }
+        ],
+        "title": "Small lambda talk",
+        "lang": "en",
+        "summary": "With the inclusion of lambda expressions in Java 8, we Java developers find ourselves with a powerful new tool under our belt. You have probably noticed the recent excitement surrounding functional programming. But did you know that lambda expressions also bring Java closer to its object-oriented roots? \r\n\r\nThe Smalltalk programming language shows how the basic ingredients of objects, methods and lambdas can be used to solve any task. We will look at how lambdas can be used to solve a multitude of tasks such as conditional processing, conditional logic, iteration and looping. \r\n\r\nI hope it will stimulate your creativity, to see whole new possibilities and discover additional uses of lambda."
+      },
+      "fromTime": "13:10",
+      "toTimeMillis": 1415881500000,
+      "toTime": "13:25",
+      "roomCapacity": 407,
+      "roomName": "Room 6",
+      "slotId": "quick_room6_thursday_13_13h10_13h25",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room7",
+      "notAllocated": false,
+      "fromTimeMillis": 1415880600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Web & HTML5",
+        "summaryAsHtml": "<p>In this talk I will explain some of my dartlang packages, especially the ones that are very close to the spring universe. When you are planning to build a dart web application you can use force mvc who has the same annotations and building blocks as a spring mvc application. &#x27;Wired&#x27; is also very usefull, we will use that for dependency injection. I will guide you to these packages when we build together a basic application.</p>\n",
+        "id": "SUW-5636",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/2c09c87c0890fdd4499e7aefca03e2f197bbb12c",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Joris hermans"
+            },
+            "name": "Joris hermans"
+          }
+        ],
+        "title": "Serverside dart for the spring developer",
+        "lang": "en",
+        "summary": "In this talk I will explain some of my dartlang packages, especially the ones that are very close to the spring universe. When you are planning to build a dart web application you can use force mvc who has the same annotations and building blocks as a spring mvc application. 'Wired' is also very usefull, we will use that for dependency injection. I will guide you to these packages when we build together a basic application."
+      },
+      "fromTime": "13:10",
+      "toTimeMillis": 1415881500000,
+      "toTime": "13:25",
+      "roomCapacity": 407,
+      "roomName": "Room 7",
+      "slotId": "quick_room7_thursday_13_13h10_13h25",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1415880600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Web & HTML5",
+        "summaryAsHtml": "<p>So, you&#x27;ve decided to start JavaScript development?\nYou&#x27;re bored to hear so good feedbacks on AngularJS, and now you want to try it by yourself?\nGood! But be careful, JavaScript is a capricious language, so you have to be well prepared, and also well equipped!</p>\n<p>During this Quickie, we will see 15 tools that every JavaScript developer should use.</p>\n",
+        "id": "QMJ-9311",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/b70ed3e4d2409227c12d37210b2d6ecc58fe6836",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Romain Linsolas"
+            },
+            "name": "Romain Linsolas"
+          }
+        ],
+        "title": "Don't be naked in front of JavaScript: 15 essential tools explained in 15 minutes",
+        "lang": "en",
+        "summary": "So, you've decided to start JavaScript development?\r\nYou're bored to hear so good feedbacks on AngularJS, and now you want to try it by yourself?\r\nGood! But be careful, JavaScript is a capricious language, so you have to be well prepared, and also well equipped!\r\n\r\nDuring this Quickie, we will see 15 tools that every JavaScript developer should use."
+      },
+      "fromTime": "13:10",
+      "toTimeMillis": 1415881500000,
+      "toTime": "13:25",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "quick_room4_thursday_13_13h10_13h25",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415880600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "JVM Languages",
+        "summaryAsHtml": "<p>Erlang is used on several huge platforms for more than 20 years, from big Ericsson swithes to the WhatsApp platform. Through immutability, functional programming and lightweight processes, Erlang helps to write distributed, scalable and reliable systems in an (almost) easy way.\nWe will give the intuition on how to build systems that support concurrency and fault tolerance. We are going to discover how to think different.</p>\n",
+        "id": "VPY-6498",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/ac977e8c33a6654683c0af44f4cc443b6d93f37b",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Gabriel Kastenbaum"
+            },
+            "name": "Gabriel Kastenbaum"
+          }
+        ],
+        "title": "Take a side road with Erlang",
+        "lang": "en",
+        "summary": "Erlang is used on several huge platforms for more than 20 years, from big Ericsson swithes to the WhatsApp platform. Through immutability, functional programming and lightweight processes, Erlang helps to write distributed, scalable and reliable systems in an (almost) easy way.\r\nWe will give the intuition on how to build systems that support concurrency and fault tolerance. We are going to discover how to think different.\r\n"
+      },
+      "fromTime": "13:10",
+      "toTimeMillis": 1415881500000,
+      "toTime": "13:25",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "quick_room3_thursday_13_13h10_13h25",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415882100000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>When importing libraries or building Android applications with multiple flavors or build types, there can be a fair number of Android manifest files to merge into the single application&#x27;s manifest file. Such merging is done by the Android tools and is following simple merging conventions (to be explained) but can be tailored to specific requirements (through customization). This talk will guide the standard merging policies of the manifest merge and how to alter them using customization techniques.</p>\n",
+        "id": "ANS-2000",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/1943edaa1a3d5f8c5398487df5fa616c84ef1b61",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Jerome Dochez"
+            },
+            "name": "Jerome Dochez"
+          }
+        ],
+        "title": "Android Manifest Merger customization ",
+        "lang": "en",
+        "summary": "When importing libraries or building Android applications with multiple flavors or build types, there can be a fair number of Android manifest files to merge into the single application's manifest file. Such merging is done by the Android tools and is following simple merging conventions (to be explained) but can be tailored to specific requirements (through customization). This talk will guide the standard merging policies of the manifest merge and how to alter them using customization techniques."
+      },
+      "fromTime": "13:35",
+      "toTimeMillis": 1415883000000,
+      "toTime": "13:50",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "quick_room8_thursday_13_13h35_13h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1415882100000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>The open source project DataFX 8 makes it easy for JavaFX developers to retrieve external data (using REST calls, database systems, or custom methods) and visualize this data in JavaFX controls. Using DataFX, you can populate UI controls by using the most-common protocols, including REST, SSE, or WebSocket. Apart from retrieving data, the Flow component in DataFX enables developers to describe different flows between UI components and to inject data models into the flows. This session shows how the different DataFX components make it easy to manage external data by using well-known Java technologies.\nThis talk gives a quick overview of DataFX by showing all the core features in an example application.</p>\n",
+        "id": "ZBO-6887",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/29db73c44aa90f13dbf8129804f1037b44d9f3fe",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Johan Vos"
+            },
+            "name": "Johan Vos"
+          }
+        ],
+        "title": "DataFX - The JavaFX Enterprise Framework",
+        "lang": "en",
+        "summary": "The open source project DataFX 8 makes it easy for JavaFX developers to retrieve external data (using REST calls, database systems, or custom methods) and visualize this data in JavaFX controls. Using DataFX, you can populate UI controls by using the most-common protocols, including REST, SSE, or WebSocket. Apart from retrieving data, the Flow component in DataFX enables developers to describe different flows between UI components and to inject data models into the flows. This session shows how the different DataFX components make it easy to manage external data by using well-known Java technologies.\r\nThis talk gives a quick overview of DataFX by showing all the core features in an example application."
+      },
+      "fromTime": "13:35",
+      "toTimeMillis": 1415883000000,
+      "toTime": "13:50",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "quick_room5_thursday_13_13h35_13h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1415882100000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>You&#x27;ve seen the asciidoctor talks. You&#x27;ve written a few asciidoc documents. Now what? Allow me to share some tips and tricks learned after working with several projects that make us of Asciidoctor for writing their documentation and guides. Tips such as keeping production sources and documentation in sync; productivity tools; and other little nuggets of joy.</p>\n",
+        "id": "TXK-6199",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/10f5c400995527046f4570e532fcf2e2badb66a3",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Andres Almiray"
+            },
+            "name": "Andres Almiray"
+          }
+        ],
+        "title": "10 Useful Asciidoctor Tips",
+        "lang": "en",
+        "summary": "You've seen the asciidoctor talks. You've written a few asciidoc documents. Now what? Allow me to share some tips and tricks learned after working with several projects that make us of Asciidoctor for writing their documentation and guides. Tips such as keeping production sources and documentation in sync; productivity tools; and other little nuggets of joy."
+      },
+      "fromTime": "13:35",
+      "toTimeMillis": 1415883000000,
+      "toTime": "13:50",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "quick_room9_thursday_13_13h35_13h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1415882100000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "JVM Languages",
+        "summaryAsHtml": "<p>Traditionally calculations on the JVM has been a painful experience.</p>\n<p>Calculations are either based on integer or floating point arithmetic, of which neither is suitable for financial applications or precise mathematics.</p>\n<p>Scalas functional paradigm offers a lot more concise and elegant calculation syntax with infix operators and implicit type conversion.</p>\n<p>Learn how to program calculations as you would in maths class.</p>\n<p>We will see examples of how to achieve:\n* improved decimal support\n* overflow detection\n* interoperable and extensible number types\n* exact division</p>\n",
+        "id": "XFJ-4004",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/e1d0104ce37d6b5c5c49a712c747f6ca81aee184",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Martin Skarsaune"
+            },
+            "name": "Martin Skarsaune"
+          }
+        ],
+        "title": "Bring your calculations to Scala!",
+        "lang": "en",
+        "summary": "Traditionally calculations on the JVM has been a painful experience.\r\n\r\nCalculations are either based on integer or floating point arithmetic, of which neither is suitable for financial applications or precise mathematics. \r\n\r\nScalas functional paradigm offers a lot more concise and elegant calculation syntax with infix operators and implicit type conversion.\r\n\r\nLearn how to program calculations as you would in maths class.\r\n\r\nWe will see examples of how to achieve: \r\n * improved decimal support\r\n * overflow detection\r\n * interoperable and extensible number types\r\n * exact division\r\n"
+      },
+      "fromTime": "13:35",
+      "toTimeMillis": 1415883000000,
+      "toTime": "13:50",
+      "roomCapacity": 407,
+      "roomName": "Room 6",
+      "slotId": "quick_room6_thursday_13_13h35_13h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room7",
+      "notAllocated": false,
+      "fromTimeMillis": 1415882100000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Future<Devoxx>",
+        "summaryAsHtml": "<p>Well..\nTechnical conferences usually does not have so many women. Some have none at all. Some have &quot;token woman&quot; who is simply invited because she is &quot;woman&quot;. And many conferences have around 8-10% women visibility at most. Some researches also show while conferences with the &quot;soft&quot; subject matter such as user experience, web design has more women speakers and attendees, hight tech conferences have low woman proportions.\nThe focus of this speech is on attempts to give more visibility to women at high-tech conferences. The experiences and challenges of a member of a community that organises conferences with the around 50% of women inclusion and solutions will be  presented.</p>\n",
+        "id": "GDO-1840",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/7a50806c61c9767e017fa1065c4fb3af3712af1a",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Nilay Yener"
+            },
+            "name": "Nilay Yener"
+          }
+        ],
+        "title": "How to get 50% women at a high-tech conference",
+        "lang": "en",
+        "summary": "Well..\r\nTechnical conferences usually does not have so many women. Some have none at all. Some have \"token woman\" who is simply invited because she is \"woman\". And many conferences have around 8-10% women visibility at most. Some researches also show while conferences with the \"soft\" subject matter such as user experience, web design has more women speakers and attendees, hight tech conferences have low woman proportions. \r\nThe focus of this speech is on attempts to give more visibility to women at high-tech conferences. The experiences and challenges of a member of a community that organises conferences with the around 50% of women inclusion and solutions will be  presented. "
+      },
+      "fromTime": "13:35",
+      "toTimeMillis": 1415883000000,
+      "toTime": "13:50",
+      "roomCapacity": 407,
+      "roomName": "Room 7",
+      "slotId": "quick_room7_thursday_13_13h35_13h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1415882100000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>2014 marks the fifteen year anniversary of the JCP program.  We will discuss the evolution of the JCP program, and motivations for participation now and in the future.  Learn about the progress being made in the JCP.Next effort, including the latest JSR being developed through the JCP program--JSR 364, Broadening JCP Participation--which plans to complete this year. We will discuss the proposal for enabling greater community access and collaboration through this JSR.</p>\n",
+        "id": "KFI-6363",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/00cc2b259b5a0c29f7b2e7ff7faf59acea8904c3",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Heather VanCura"
+            },
+            "name": "Heather VanCura"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/4c0b1f91561cc13660171c4b2ea2177290bec331",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Patrick Curran"
+            },
+            "name": "Patrick Curran"
+          }
+        ],
+        "title": "Bringing Java into the Open",
+        "lang": "en",
+        "summary": "2014 marks the fifteen year anniversary of the JCP program.  We will discuss the evolution of the JCP program, and motivations for participation now and in the future.  Learn about the progress being made in the JCP.Next effort, including the latest JSR being developed through the JCP program--JSR 364, Broadening JCP Participation--which plans to complete this year. We will discuss the proposal for enabling greater community access and collaboration through this JSR. \r\n"
+      },
+      "fromTime": "13:35",
+      "toTimeMillis": 1415883000000,
+      "toTime": "13:50",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "quick_room4_thursday_13_13h35_13h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415882100000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Quickie",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>UI testing is an important part of testing. It’s easy to write simple UI tests, but not that easy to build a readable and maintainable test suite. What are the patterns to know when dealing with UI testing ? What are the common mistakes that you can easily avoid ?</p>\n",
+        "id": "VXI-5903",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/28b79f5b2868a349d14f12bc2142163673239fdf",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Mathilde Lemee"
+            },
+            "name": "Mathilde Lemee"
+          }
+        ],
+        "title": "The 10 rules to write better UI tests with Selenium",
+        "lang": "en",
+        "summary": "UI testing is an important part of testing. It’s easy to write simple UI tests, but not that easy to build a readable and maintainable test suite. What are the patterns to know when dealing with UI testing ? What are the common mistakes that you can easily avoid ? \r\n\r\n"
+      },
+      "fromTime": "13:35",
+      "toTimeMillis": 1415883000000,
+      "toTime": "13:50",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "quick_room3_thursday_13_13h35_13h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415883600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>This session will dive deeply into two different aspects of the new material design experience of the Android platform. The first half will focus on an application that was written explicitly to take advantage of material design capabilities to provide a rich experience for users. Developers will see how to apply similar techniques to create rich applications of their own. The second part of this talk will dive into some of the internals of how various capabilities of material design on Android work; it will provide an interesting look under the covers to see how platform functionality evolves and how to achieve high-performance, rich effects in constrained situations.</p>\n",
+        "id": "XKG-8068",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/216d76084fbde66bd0103b0f5001881ccbfee957",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Romain Guy"
+            },
+            "name": "Romain Guy"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/b533c53e0469ad2b77d7a09432e72b7fb68954db",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Chet Haase"
+            },
+            "name": "Chet Haase"
+          }
+        ],
+        "title": "Material witness: How Android material applications work",
+        "lang": "en",
+        "summary": "This session will dive deeply into two different aspects of the new material design experience of the Android platform. The first half will focus on an application that was written explicitly to take advantage of material design capabilities to provide a rich experience for users. Developers will see how to apply similar techniques to create rich applications of their own. The second part of this talk will dive into some of the internals of how various capabilities of material design on Android work; it will provide an interesting look under the covers to see how platform functionality evolves and how to achieve high-performance, rich effects in constrained situations."
+      },
+      "fromTime": "14:00",
+      "toTimeMillis": 1415887200000,
+      "toTime": "15:00",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "conf_room8_thursday_13_14h0_15h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1415883600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>Post your questions below and we&#x27;ll select the most interesting ones during this session.  Or use the following hashtags when the session takes place #DV14 #JavaQ</p>\n",
+        "id": "TXP-4210",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/a4cb83b34e086e694a1dff20ef79d60060b719e2",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Brian Goetz"
+            },
+            "name": "Brian Goetz"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/e7f86fd6d37aa827d4106a79d3f5230b44c5250f",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Paul Sandoz"
+            },
+            "name": "Paul Sandoz"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/a58ccd51e350fccb540ea5548cef107785624501",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Stuart Marks"
+            },
+            "name": "Stuart Marks"
+          }
+        ],
+        "title": "Java 8, 9 and beyond - Ask the Experts",
+        "lang": "en",
+        "summary": "Post your questions below and we'll select the most interesting ones during this session.  Or use the following hashtags when the session takes place #DV14 #JavaQ "
+      },
+      "fromTime": "14:00",
+      "toTimeMillis": 1415887200000,
+      "toTime": "15:00",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "conf_room5_thursday_13_14h0_15h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1415883600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>We’ve all written an application from scratch before. You start with some code on your laptop and tell a server to run it. You make tweaks, update manually, and realize that you’ve committed yourself to a very imperative process. It’s manual. Inefficient. What’s worse, it’s completely unreproducible.</p>\n<p>So then you might turn to Docker, which solves the process-level reproducibility by packaging up a full execution environment. But once we get beyond a single machine, we need to coordinate the work across a cluster of machines -- trying to do it imperatively can quickly turn into a tangled mess! You want to declare to your cluster what you expect it to do, and have the cluster assign the resources to get it done, recover from failures, and scale easily.</p>\n<p>Kubernetes is a recently open sourced cluster manager and scheduler that simplifies the complex tasks of deploying and managing your application. You simply declare the desired state, and Kubernetes does the work to keep it that way. In this talk, we’ll do a hands-on demonstration of how you can move from a single Docker container to many containers running across a cluster of machines by using Kubernetes.</p>\n",
+        "id": "LAQ-5951",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/4cd4b23b0ef4f600b1149ece59d33d1502d339c3",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Julia Ferraioli"
+            },
+            "name": "Julia Ferraioli"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/df0f8224f486be413ead8dcfe841346ba1470ca0",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Brian Dorsey"
+            },
+            "name": "Brian Dorsey"
+          }
+        ],
+        "title": "Scaling clusters declaratively with Kubernetes and Docker",
+        "lang": "en",
+        "summary": "We’ve all written an application from scratch before. You start with some code on your laptop and tell a server to run it. You make tweaks, update manually, and realize that you’ve committed yourself to a very imperative process. It’s manual. Inefficient. What’s worse, it’s completely unreproducible.\r\n\r\nSo then you might turn to Docker, which solves the process-level reproducibility by packaging up a full execution environment. But once we get beyond a single machine, we need to coordinate the work across a cluster of machines -- trying to do it imperatively can quickly turn into a tangled mess! You want to declare to your cluster what you expect it to do, and have the cluster assign the resources to get it done, recover from failures, and scale easily. \r\n\r\nKubernetes is a recently open sourced cluster manager and scheduler that simplifies the complex tasks of deploying and managing your application. You simply declare the desired state, and Kubernetes does the work to keep it that way. In this talk, we’ll do a hands-on demonstration of how you can move from a single Docker container to many containers running across a cluster of machines by using Kubernetes.\r\n"
+      },
+      "fromTime": "14:00",
+      "toTimeMillis": 1415887200000,
+      "toTime": "15:00",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "conf_room9_thursday_13_14h0_15h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1415883600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>The Square Register Android app has few crashes. Getting there requires a systematic approach: coding defensively, gathering information, measuring impact and improving architecture.</p>\n<p>This talk presents our concrete steps towards lowering the crash rate, from the general philosophy to the tools we use, together with real crash examples.</p>\n",
+        "id": "HFI-0894",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/ebec1ebbbb41d5c4e16fa13fc443ddc70586b074",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Pierre-Yves Ricau"
+            },
+            "name": "Pierre-Yves Ricau"
+          }
+        ],
+        "title": "Crash Fast: Square’s approach to Android crashes",
+        "lang": "en",
+        "summary": "The Square Register Android app has few crashes. Getting there requires a systematic approach: coding defensively, gathering information, measuring impact and improving architecture.\r\n\r\nThis talk presents our concrete steps towards lowering the crash rate, from the general philosophy to the tools we use, together with real crash examples."
+      },
+      "fromTime": "14:00",
+      "toTimeMillis": 1415887200000,
+      "toTime": "15:00",
+      "roomCapacity": 407,
+      "roomName": "Room 6",
+      "slotId": "conf_room6_thursday_13_14h0_15h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room7",
+      "notAllocated": false,
+      "fromTimeMillis": 1415883600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>Java EE is a rich platform widely used in the enterprise. This session looks at the relevance of Java EE outside of this traditional domain—that is, how Java EE is also relevant for the connected home and, more generally, for the Internet of Things. The session covers the various extension points and technologies available in Java EE to integrate external systems, such as using JCA to connect to a KNX bus (the most widely used protocol in home automation) and wireless meshed Z-Wave network.\nHome automation is by nature highly event-driven, so the presentation looks at how message-driven beans and CDI can be leveraged in this context. Finally, it also looks at additional technologies that are relevant in the Internet of Things space, such as JAX-RS and WebSocket.</p>\n",
+        "id": "MDO-9400",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/21451efc1bd7fe90b564e9a0552956267b96ed6d",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "David Delabassee"
+            },
+            "name": "David Delabassee"
+          }
+        ],
+        "title": "Pushing Java EE outside the Enterprise Space: Home Automation and IoT",
+        "lang": "en",
+        "summary": "Java EE is a rich platform widely used in the enterprise. This session looks at the relevance of Java EE outside of this traditional domain—that is, how Java EE is also relevant for the connected home and, more generally, for the Internet of Things. The session covers the various extension points and technologies available in Java EE to integrate external systems, such as using JCA to connect to a KNX bus (the most widely used protocol in home automation) and wireless meshed Z-Wave network.\r\nHome automation is by nature highly event-driven, so the presentation looks at how message-driven beans and CDI can be leveraged in this context. Finally, it also looks at additional technologies that are relevant in the Internet of Things space, such as JAX-RS and WebSocket."
+      },
+      "fromTime": "14:00",
+      "toTimeMillis": 1415887200000,
+      "toTime": "15:00",
+      "roomCapacity": 407,
+      "roomName": "Room 7",
+      "slotId": "conf_room7_thursday_13_14h0_15h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1415883600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Cloud & BigData",
+        "summaryAsHtml": "<p>With Mobile First, Cloud First, Microsoft is looking forward to and investing heavily in the future.</p>\n<p>In the past few years, many investments have been made towards open source, java and non-Microsoft technologies.</p>\n<p>To be successful in a mobile and cloud world, one has to be open and flexible and not limited to what has been done before.</p>\n<p>With Azure, Microsoft provides developers, infrastructure engineers and cloud enthusiasts with a solution for almost any problem or challenge.</p>\n<p>More than 1 in 5 Virtual Machines running in Azure is a Linux machine, running non-Microsoft workloads.</p>\n<p>Every day, support for other solutions gets added, like Java, Oracle, SAP, Citrix, Linux, ... and many open source SaaS and PaaS solutions.</p>\n<p>Join this session to learn about our vision towards the future and how we approach this Mobile First, Cloud First world.</p>\n<p>We will walk you through the Azure Platform, focusing on non-Microsoft technologies and showing you the power for open source and java developers.</p>\n<p>We will drill into the many possibilities, and the many services available to run any workload you can imagine.</p>\n",
+        "id": "YFB-1641",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/5e92350456c3fabdbe12b280e0568471c8a03778",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Kristof Rennen"
+            },
+            "name": "Kristof Rennen"
+          }
+        ],
+        "title": "Why Microsoft loves Open Source, Java and Non-Microsoft Tech in a Mobile First, Cloud First World.",
+        "lang": "en",
+        "summary": "With Mobile First, Cloud First, Microsoft is looking forward to and investing heavily in the future.\r\n\r\nIn the past few years, many investments have been made towards open source, java and non-Microsoft technologies.\r\n\r\nTo be successful in a mobile and cloud world, one has to be open and flexible and not limited to what has been done before.\r\n\r\nWith Azure, Microsoft provides developers, infrastructure engineers and cloud enthusiasts with a solution for almost any problem or challenge.\r\n\r\nMore than 1 in 5 Virtual Machines running in Azure is a Linux machine, running non-Microsoft workloads.\r\n\r\nEvery day, support for other solutions gets added, like Java, Oracle, SAP, Citrix, Linux, ... and many open source SaaS and PaaS solutions.\r\n\r\nJoin this session to learn about our vision towards the future and how we approach this Mobile First, Cloud First world.\r\n\r\nWe will walk you through the Azure Platform, focusing on non-Microsoft technologies and showing you the power for open source and java developers.\r\n\r\nWe will drill into the many possibilities, and the many services available to run any workload you can imagine."
+      },
+      "fromTime": "14:00",
+      "toTimeMillis": 1415887200000,
+      "toTime": "15:00",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "conf_room4_thursday_13_14h0_15h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415883600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Startups",
+        "summaryAsHtml": "<p>‘Entrepreneurship’ is one of the buzzwords of today and a standard advice for coping with the future. However, only a limited number of people dare to jump in the unknown, and really live entrepreneurial. Creating an enterprise starts with a good idea, and converting this idea into driving a real business requires all the help you can get, especially with regards to the financial aspects of your business. This talk focuses at the take-off financial advice and solutions ING offers to technology starters including types of financing.</p>\n<p>During this workshop, banking experts with specific affinity for IT ventures will share tips and tricks and personal experiences with providing funding and banking services to IT start-ups.</p>\n",
+        "id": "FDL-0507",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/5892d778a041a9b3acf047a73c8600a794f28f6a",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Pieter Goderis"
+            },
+            "name": "Pieter Goderis"
+          }
+        ],
+        "title": "Starting your own business or becoming self-employed?",
+        "lang": "en",
+        "summary": "‘Entrepreneurship’ is one of the buzzwords of today and a standard advice for coping with the future. However, only a limited number of people dare to jump in the unknown, and really live entrepreneurial. Creating an enterprise starts with a good idea, and converting this idea into driving a real business requires all the help you can get, especially with regards to the financial aspects of your business. This talk focuses at the take-off financial advice and solutions ING offers to technology starters including types of financing. \r\n\r\nDuring this workshop, banking experts with specific affinity for IT ventures will share tips and tricks and personal experiences with providing funding and banking services to IT start-ups. "
+      },
+      "fromTime": "14:00",
+      "toTimeMillis": 1415887200000,
+      "toTime": "15:00",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "conf_room3_thursday_13_14h0_15h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "bof1",
+      "notAllocated": false,
+      "fromTimeMillis": 1415883600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "talkType": "Hand's on Labs",
+        "track": "Cloud & BigData",
+        "summaryAsHtml": "<p>You are a Java developer and dream about scaling your application like Snapchat? You need latest support for Java 8, Servlet 3.1, WebSockets, optimized annotation processing, Gradle, Maven, Jenkins pipeline and Android clients? Well, we have it all with Managed VMs. The lab will introduce you to the latest Cloud SDK, a multi language environment (Java, Node.js, Dart, yours…), all sharing the same APIs and Services for developing Docker images and containers that can run locally and which can be deployed unchanged to the Cloud in a fully managed environment.</p>\n",
+        "id": "NMJ-4341",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/e07d5483e655803bcb74aff0bff1898888862f99",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Ludovic Champenois"
+            },
+            "name": "Ludovic Champenois"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/2babdc9d383c48e28f3c29a9cfa89da0743c9ff7",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Guillaume Binet"
+            },
+            "name": "Guillaume Binet"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/952c0e363ee67013f393c208dc344a89000576ea",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Alexis Moussine-Pouchkine"
+            },
+            "name": "Alexis Moussine-Pouchkine"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/35c847843b57fd2dcca89d67867bb4f49f3d50e8",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Mandy Waite"
+            },
+            "name": "Mandy Waite"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/3b4de9092cd9236a4953c5e8bffed0c5de2f7537",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Martin Görner"
+            },
+            "name": "Martin Görner"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/0989ca06b8777b26dbf137e28f60a6e1c3e472d5",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Éamonn McManus"
+            },
+            "name": "Éamonn McManus"
+          }
+        ],
+        "title": "Managed VMs: the new way to develop and test highly scalable applications on your laptop and then run them in the Cloud",
+        "lang": "en",
+        "summary": "You are a Java developer and dream about scaling your application like Snapchat? You need latest support for Java 8, Servlet 3.1, WebSockets, optimized annotation processing, Gradle, Maven, Jenkins pipeline and Android clients? Well, we have it all with Managed VMs. The lab will introduce you to the latest Cloud SDK, a multi language environment (Java, Node.js, Dart, yours…), all sharing the same APIs and Services for developing Docker images and containers that can run locally and which can be deployed unchanged to the Cloud in a fully managed environment."
+      },
+      "fromTime": "14:00",
+      "toTimeMillis": 1415894400000,
+      "toTime": "17:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "lab_bof1_thursday_13_14h0_17h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415887800000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>Chrome Apps provides developers a way to write native apps using web technologies that run on all major desktop operating systems. Andrew and his team have been working towards bring this same developer platform to Android and iOS by leveraging the Apache Cordova toolchain.</p>\n<p>This talk will cover what the developer workflow looks like when developing a mobile Chrome App - what works well, what doesn&#x27;t and what pitfalls to avoid.</p>\n",
+        "id": "FQH-8450",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/2f163e68af58c9995bde161d9d91afc550e02d0d",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Andrew Grieve"
+            },
+            "name": "Andrew Grieve"
+          }
+        ],
+        "title": "Chrome Apps Everywhere",
+        "lang": "en",
+        "summary": "Chrome Apps provides developers a way to write native apps using web technologies that run on all major desktop operating systems. Andrew and his team have been working towards bring this same developer platform to Android and iOS by leveraging the Apache Cordova toolchain.\r\n\r\nThis talk will cover what the developer workflow looks like when developing a mobile Chrome App - what works well, what doesn't and what pitfalls to avoid."
+      },
+      "fromTime": "15:10",
+      "toTimeMillis": 1415891400000,
+      "toTime": "16:10",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "conf_room8_thursday_13_15h10_16h10",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1415887800000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>Come and hang out with the Java Posse, drink some beer, have some laughs, and if you are lucky, maybe even learn something valuable along the way. We will record a live sitrep from Devoxx and discuss all things Java and Java related. This is intended to be a very interactive session, so make sure you grab a beer and leave your inhibitions and shyness at the door.</p>\n",
+        "id": "HTI-0519",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/db0de8d909917e3b95764f5f8ca5ac5faf446c8d",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Dick Wall"
+            },
+            "name": "Dick Wall"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/b533c53e0469ad2b77d7a09432e72b7fb68954db",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Chet Haase"
+            },
+            "name": "Chet Haase"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/71e1f6c1d6f5b6eecca725da801df98ccbacdd30",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Carl Quinn"
+            },
+            "name": "Carl Quinn"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/624fbf1482fbcd1cbe6cf0588caaa268834cde2d",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Tor Norbye"
+            },
+            "name": "Tor Norbye"
+          }
+        ],
+        "title": "Java Posse Live",
+        "lang": "en",
+        "summary": "Come and hang out with the Java Posse, drink some beer, have some laughs, and if you are lucky, maybe even learn something valuable along the way. We will record a live sitrep from Devoxx and discuss all things Java and Java related. This is intended to be a very interactive session, so make sure you grab a beer and leave your inhibitions and shyness at the door."
+      },
+      "fromTime": "15:10",
+      "toTimeMillis": 1415891400000,
+      "toTime": "16:10",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "conf_room5_thursday_13_15h10_16h10",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1415887800000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>Want to understand what persistence to NoSQL means in a Java architecture? Read on.</p>\n<p>Java is an object oriented kingdom where ORMs have flourished. Do <strong>ORMs still provide benefits in a NoSQL and polyglot era</strong>? As a side effect we will discuss the why and how of data design in NoSQL.</p>\n<p>Busted, plausible or confirmed? Here is a list of non exclusive myths and preconceptions we will explore:</p>\n<ul>\n<li>Once you have chosen a NoSQL product, you don&#x27;t need any other.</li>\n<li>NoSQL is a data duplication nightmare.</li>\n<li>JPA is not suited to non relational databases.</li>\n<li>Objects don&#x27;t fit in the data structures of NoSQL solutions.</li>\n<li>ORMs cannot abstract the underlying NoSQL models.</li>\n<li>ORMs speeds things up at runtime.</li>\n<li>The query language of NoSQL cannot be abstracted.</li>\n<li>You need access to the native API to make real use of NoSQL.</li>\n<li>ORMs don’t bring much value in an NoSQL world.</li>\n<li>And more.</li>\n</ul>\n<p>While we can&#x27;t do explosions experiments due to fire safety regulations, your vocal contribution is encouraged. Come and debate!</p>\n<p>Note: we mention ORMs but it should really be OXMs or ONMs :)</p>\n",
+        "id": "BYN-6048",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/d969cedfa217ca603271fcddb924f751f09b5e70",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Emmanuel Bernard"
+            },
+            "name": "Emmanuel Bernard"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/9987cb11858e4ef97bdbc5c180206630140aea00",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Gunnar Morling"
+            },
+            "name": "Gunnar Morling"
+          }
+        ],
+        "title": "MythBusters: ORMs and NoSQL - good or bad?",
+        "lang": "en",
+        "summary": "Want to understand what persistence to NoSQL means in a Java architecture? Read on.\r\n\r\nJava is an object oriented kingdom where ORMs have flourished. Do **ORMs still provide benefits in a NoSQL and polyglot era**? As a side effect we will discuss the why and how of data design in NoSQL.\r\n\r\nBusted, plausible or confirmed? Here is a list of non exclusive myths and preconceptions we will explore:\r\n\r\n- Once you have chosen a NoSQL product, you don't need any other.\r\n- NoSQL is a data duplication nightmare.\r\n- JPA is not suited to non relational databases.\r\n- Objects don't fit in the data structures of NoSQL solutions.\r\n- ORMs cannot abstract the underlying NoSQL models.\r\n- ORMs speeds things up at runtime.\r\n- The query language of NoSQL cannot be abstracted.\r\n- You need access to the native API to make real use of NoSQL.\r\n- ORMs don’t bring much value in an NoSQL world.\r\n- And more.\r\n\r\nWhile we can't do explosions experiments due to fire safety regulations, your vocal contribution is encouraged. Come and debate!\r\n\r\nNote: we mention ORMs but it should really be OXMs or ONMs :)"
+      },
+      "fromTime": "15:10",
+      "toTimeMillis": 1415891400000,
+      "toTime": "16:10",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "conf_room9_thursday_13_15h10_16h10",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1415887800000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>A documentation-free anarchistic way of force feeding customers with software releases, like they do with geeze for foie gras&#x27;. That&#x27;s how some used to view Agile as opposed to their (t)rusted waterfall &amp; RUP methodologies. Yet where does software testing fit in? Are QA professionals still the gatekeepers of quality in the twilight zone between development and a stable production release? Can we find a way to assure quality in a volatile world of ever changing requirements? Can we cope with high velocity without being beheaded by untested sharp edges of the product? Have software testers become redundant or rather essential in the agile team?</p>\n",
+        "id": "SSC-7620",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/42467051f79f1e909ee910fc685cfde646180f0c",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Jochim Van Dorpe"
+            },
+            "name": "Jochim Van Dorpe"
+          }
+        ],
+        "title": "Beyond the urban legend - Testing in an agile context ",
+        "lang": "en",
+        "summary": "A documentation-free anarchistic way of force feeding customers with software releases, like they do with geeze for foie gras'. That's how some used to view Agile as opposed to their (t)rusted waterfall & RUP methodologies. Yet where does software testing fit in? Are QA professionals still the gatekeepers of quality in the twilight zone between development and a stable production release? Can we find a way to assure quality in a volatile world of ever changing requirements? Can we cope with high velocity without being beheaded by untested sharp edges of the product? Have software testers become redundant or rather essential in the agile team?"
+      },
+      "fromTime": "15:10",
+      "toTimeMillis": 1415891400000,
+      "toTime": "16:10",
+      "roomCapacity": 407,
+      "roomName": "Room 6",
+      "slotId": "conf_room6_thursday_13_15h10_16h10",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room7",
+      "notAllocated": false,
+      "fromTimeMillis": 1415887800000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>Monitoring is not sexy, lets talk about Docker instead!</p>\n<p>Application monitoring is an understated topic. It moved discreetly towards recent paradigm changes, BigData, Devops producing new tools and practices. Practices as design for failure and lean leverages monitoring, Cloud monitoring services emerges, monitoring moves to Hadoop and Elastic Search and other appealing visualization tools. I make a bet: tomorrow you will love doing monitoring and will not do without it anymore.</p>\n",
+        "id": "HLZ-3635",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/b1cdd4e3c3057dd51c31fb6210ff9d427b0258f4",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Claude Falguiere"
+            },
+            "name": "Claude Falguiere"
+          }
+        ],
+        "title": "Monitoring in the era of DevOps, Lean and BigData",
+        "lang": "en",
+        "summary": "Monitoring is not sexy, lets talk about Docker instead! \r\n\r\nApplication monitoring is an understated topic. It moved discreetly towards recent paradigm changes, BigData, Devops producing new tools and practices. Practices as design for failure and lean leverages monitoring, Cloud monitoring services emerges, monitoring moves to Hadoop and Elastic Search and other appealing visualization tools. I make a bet: tomorrow you will love doing monitoring and will not do without it anymore.\r\n"
+      },
+      "fromTime": "15:10",
+      "toTimeMillis": 1415891400000,
+      "toTime": "16:10",
+      "roomCapacity": 407,
+      "roomName": "Room 7",
+      "slotId": "conf_room7_thursday_13_15h10_16h10",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1415887800000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>With more competition than ever, it&#x27;s harder than ever to build a product company that supports itself through App Store sales. It&#x27;s especially difficult these days to come up with app ideas that have the earning potential needed to sustain a business over the long term. Far too many developers have a great product idea, build it, and then are disappointed when sales don&#x27;t follow. But a lot of these products fail not because they&#x27;re bad apps, but because their creators were thinking like programmers, and not like entrepreneurs.</p>\n<p>In this presentation, we&#x27;ll explore the typical &quot;product first&quot; approach to app development that most developers employ, and why it so often leads to disappointment in the marketplace. Once we understand what doesn&#x27;t work, we&#x27;ll turn our attention to a &quot;market first&quot; approach that holds much more promise in creating app ideas that result in profit. You&#x27;ll learn the most important factors in the success of a product (Spoiler alert: Your app&#x27;s feature list isn&#x27;t one of them.) and why niches are the name of the game. Along the way, you&#x27;ll learn a framework for evaluating potential markets, and how to identify product ideas that customers are happy to pay for.</p>\n",
+        "id": "HVV-1041",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/cda66923f8a4d66f07b87a50d017aba9bc2aece9",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Charles Perry"
+            },
+            "name": "Charles Perry"
+          }
+        ],
+        "title": "Building in Success with Market First Development",
+        "lang": "en",
+        "summary": "With more competition than ever, it's harder than ever to build a product company that supports itself through App Store sales. It's especially difficult these days to come up with app ideas that have the earning potential needed to sustain a business over the long term. Far too many developers have a great product idea, build it, and then are disappointed when sales don't follow. But a lot of these products fail not because they're bad apps, but because their creators were thinking like programmers, and not like entrepreneurs.\r\n\r\nIn this presentation, we'll explore the typical \"product first\" approach to app development that most developers employ, and why it so often leads to disappointment in the marketplace. Once we understand what doesn't work, we'll turn our attention to a \"market first\" approach that holds much more promise in creating app ideas that result in profit. You'll learn the most important factors in the success of a product (Spoiler alert: Your app's feature list isn't one of them.) and why niches are the name of the game. Along the way, you'll learn a framework for evaluating potential markets, and how to identify product ideas that customers are happy to pay for."
+      },
+      "fromTime": "15:10",
+      "toTimeMillis": 1415891400000,
+      "toTime": "16:10",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "conf_room4_thursday_13_15h10_16h10",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415887800000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Startups",
+        "summaryAsHtml": "<p>What makes online marketing to coolest way to get new costumers to your website. Not like classic marketing everything I do is datadriven. There is not one decision you have to make on a hunch. The online marketing landscape is very diverse en often very complex. Should I advertise? How do I advertise? How does SEO work? How do I measure my efforts? How do I know I&#x27;m doing the right thing?\nAll valid and common questions. I want to inspire and help determine the cornerstones for succes.</p>\n<p>I will address Google Analytics, Google Adwords (SEA, Display, Remarketing) en the basics  concerning SEO. Everything will be based on actual cases and personal experience. To help you on your way I will show easy and quick do it yourself growth hacks to validate and scale your own projects.</p>\n<p>During the session everybody can ask questions en challenge me.</p>\n<p>See you soon.</p>\n",
+        "id": "YZR-9566",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/f3dd47010cf562b929cb97b4afaf7d2a4cfe0cd0",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Matthias Laqueur"
+            },
+            "name": "Matthias Laqueur"
+          }
+        ],
+        "title": "Growth Hacking your website via SMART Online Marketing",
+        "lang": "en",
+        "summary": "What makes online marketing to coolest way to get new costumers to your website. Not like classic marketing everything I do is datadriven. There is not one decision you have to make on a hunch. The online marketing landscape is very diverse en often very complex. Should I advertise? How do I advertise? How does SEO work? How do I measure my efforts? How do I know I'm doing the right thing? \r\nAll valid and common questions. I want to inspire and help determine the cornerstones for succes. \r\n\r\nI will address Google Analytics, Google Adwords (SEA, Display, Remarketing) en the basics  concerning SEO. Everything will be based on actual cases and personal experience. To help you on your way I will show easy and quick do it yourself growth hacks to validate and scale your own projects. \r\n\r\nDuring the session everybody can ask questions en challenge me. \r\n\r\nSee you soon. "
+      },
+      "fromTime": "15:10",
+      "toTimeMillis": 1415891400000,
+      "toTime": "16:10",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "conf_room3_thursday_13_15h10_16h10",
+      "day": "thursday"
+    },
+    {
+      "roomId": "a_hall",
+      "notAllocated": false,
+      "fromTimeMillis": 1415891400000,
+      "break": {
+        "id": "coffee",
+        "nameEN": "Coffee Break",
+        "nameFR": "Pause café",
+        "room": {
+          "id": "a_hall",
+          "name": "Exhibition floor",
+          "capacity": 1500,
+          "recorded": false,
+          "setup": "special"
+        }
+      },
+      "roomSetup": "special",
+      "talk": null,
+      "fromTime": "16:10",
+      "toTimeMillis": 1415893200000,
+      "toTime": "16:40",
+      "roomCapacity": 1500,
+      "roomName": "Exhibition floor",
+      "slotId": "coffee_thursday_13_16h10_15h40",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415893200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>Dagger is a fast dependency injector for both Java and Android. Its second major version not only brings new features for parity with other frameworks but continues to push the boundaries of speed.</p>\n<p>This talk will start with a brief introduction to Dagger and dependency injection in general. We will then cover the new concepts and new APIs provided by Dagger v2 with real-world examples. Finally we&#x27;ll demonstrate some powerful and fun behavior which can greatly enhance the quality of your apps.</p>\n<p>The concepts covered in this talk apply to both Java targeting the JVM and Android.</p>\n<p>If you are new to Dagger or dependency injection in general you can watch my &quot;Architecting Android Apps with Dagger&quot; talk from last year&#x27;s Devoxx on Parleys: http://parleys.com/play/529bde2ce4b0e619540cc3ae/ (even if you aren&#x27;t an Android developer!)</p>\n",
+        "id": "FCZ-2520",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/209cdc8aaa94d30cd49f9adde9cb7475ec99d2f9",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Jake Wharton"
+            },
+            "name": "Jake Wharton"
+          }
+        ],
+        "title": "The Future of Dependency Injection with Dagger 2",
+        "lang": "en",
+        "summary": "Dagger is a fast dependency injector for both Java and Android. Its second major version not only brings new features for parity with other frameworks but continues to push the boundaries of speed.\r\n\r\nThis talk will start with a brief introduction to Dagger and dependency injection in general. We will then cover the new concepts and new APIs provided by Dagger v2 with real-world examples. Finally we'll demonstrate some powerful and fun behavior which can greatly enhance the quality of your apps.\r\n\r\nThe concepts covered in this talk apply to both Java targeting the JVM and Android.\r\n\r\nIf you are new to Dagger or dependency injection in general you can watch my \"Architecting Android Apps with Dagger\" talk from last year's Devoxx on Parleys: http://parleys.com/play/529bde2ce4b0e619540cc3ae/ (even if you aren't an Android developer!)"
+      },
+      "fromTime": "16:40",
+      "toTimeMillis": 1415896800000,
+      "toTime": "17:40",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "conf_room8_thursday_13_16h40_17h40",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1415893200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>Apple released a new programming language for its ecosystem--one that appears, pretty clearly, to be designed to appeal to the traditional C/C++/C#/Java community developer. So how hard is it to get started now with iOS and OS X development? In this presentation, we&#x27;re going to take a language-level look at Swift, and how easy or hard it would be to get started writing iOS code as a Java developer.</p>\n",
+        "id": "BDL-3486",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/b5938f9521d4242099df7ab7b513b8bb70a55d7b",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Ted Neward"
+            },
+            "name": "Ted Neward"
+          }
+        ],
+        "title": "Busy Java Developer's Guide to Apple's Swift",
+        "lang": "en",
+        "summary": "Apple released a new programming language for its ecosystem--one that appears, pretty clearly, to be designed to appeal to the traditional C/C++/C#/Java community developer. So how hard is it to get started now with iOS and OS X development? In this presentation, we're going to take a language-level look at Swift, and how easy or hard it would be to get started writing iOS code as a Java developer."
+      },
+      "fromTime": "16:40",
+      "toTimeMillis": 1415896800000,
+      "toTime": "17:40",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "conf_room5_thursday_13_16h40_17h40",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1415893200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>Static analysis shouldn’t be about finding pounds of coding style or standards issues. It should be focused on finding the most critical – potentially crash causing issues. Come learn about advances in modern static analysis techniques and see real live bugs found and fixed by popular open source Java projects. We will also cover best practices for incorporating static analysis into your software development lifecycle so you can avoid shipping buggy software without technology slowing you down or getting in your way.</p>\n",
+        "id": "XDK-8811",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/42bb5675f2ec89145d513d34a5ebf5896221ef5f",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "James Croall"
+            },
+            "name": "James Croall"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/39932da0563c3119592fad59a2a3c39bc73ce452",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "David Lindsay"
+            },
+            "name": "David Lindsay"
+          }
+        ],
+        "title": "Breakthroughs in Semantic Analysis of Java",
+        "lang": "en",
+        "summary": "Static analysis shouldn’t be about finding pounds of coding style or standards issues. It should be focused on finding the most critical – potentially crash causing issues. Come learn about advances in modern static analysis techniques and see real live bugs found and fixed by popular open source Java projects. We will also cover best practices for incorporating static analysis into your software development lifecycle so you can avoid shipping buggy software without technology slowing you down or getting in your way."
+      },
+      "fromTime": "16:40",
+      "toTimeMillis": 1415896800000,
+      "toTime": "17:40",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "conf_room9_thursday_13_16h40_17h40",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1415893200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Web & HTML5",
+        "summaryAsHtml": "<p>Can you use HTML5 technologies to build a website which works offline? Without a reliable internet connection, or no connection at all over a couple of days?</p>\n<p>We will talk you through the challenges we faced building an offline-first web application, using AppCache, IndexedDB and File API to store the application&#x27;s sources and its data in the browser.</p>\n<p>The questions we had to ask ourselves included:</p>\n<ul>\n<li>Is the client or the server the master of the data?</li>\n<li>What happens if we introduce schema changes that break out-of-date clients?</li>\n<li>How do we handle updates of the application?</li>\n<li>How do we sync the data between clients and server?</li>\n<li>And what does &quot;offline&quot; mean anyway?</li>\n</ul>\n",
+        "id": "XZD-3251",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/a744320f623af85478f896600ab3cd9ee77eb474",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Birgitta Boeckeler"
+            },
+            "name": "Birgitta Boeckeler"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/8abfb046ce7f3c744244b1642a2cb3aa745e92ff",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Lukasz Plotnicki"
+            },
+            "name": "Lukasz Plotnicki"
+          }
+        ],
+        "title": "OnConnectionLost: Challenges of an offline web application",
+        "lang": "en",
+        "summary": "Can you use HTML5 technologies to build a website which works offline? Without a reliable internet connection, or no connection at all over a couple of days?\r\n\r\nWe will talk you through the challenges we faced building an offline-first web application, using AppCache, IndexedDB and File API to store the application's sources and its data in the browser. \r\n\r\nThe questions we had to ask ourselves included:\r\n\r\n- Is the client or the server the master of the data?\r\n- What happens if we introduce schema changes that break out-of-date clients?\r\n- How do we handle updates of the application?\r\n- How do we sync the data between clients and server?\r\n- And what does \"offline\" mean anyway?\r\n"
+      },
+      "fromTime": "16:40",
+      "toTimeMillis": 1415896800000,
+      "toTime": "17:40",
+      "roomCapacity": 407,
+      "roomName": "Room 6",
+      "slotId": "conf_room6_thursday_13_16h40_17h40",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room7",
+      "notAllocated": false,
+      "fromTimeMillis": 1415893200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Future<Devoxx>",
+        "summaryAsHtml": "<p>3D printing is an exciting technology. Just recently it has taken off in the maker movement and opened the door to almost unlimited possibilities. 3D printers are now affordable for almost everyone and are an ideal tool for teaching and education. The only problem that remains is designing 3D parts. We solve this with the flexible Java library JCSG that provides a very convenient way to programmatically create 3D geometries.</p>\n<p>Programmatically designing 3D geometries is a very strong motivator for children (and everybody else) to learn programming and finally producing something that they can touch in the real world!</p>\n<p>In this session we explain how 3D printing works and give an introduction to JCSG and VRL-Studio, our Visual Programming Environment that we use for teaching and prototyping. It combines visual and text-based programming and automatically creates interactive user interfaces for any Java Object.</p>\n<p>Attendees get full access to all sample projects that we show in the session.</p>\n<p>Links:</p>\n<p>http://vrl-studio.mihosoft.eu/\nhttps://github.com/miho/JCSG\nhttp://mihosoft.eu/</p>\n",
+        "id": "HJD-5080",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/9afeef80d74b514d8238c6c66df0e9e65c94a705",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Michael Hoffer"
+            },
+            "name": "Michael Hoffer"
+          }
+        ],
+        "title": "3D Printing, Teaching Java & Visual Programming",
+        "lang": "en",
+        "summary": "3D printing is an exciting technology. Just recently it has taken off in the maker movement and opened the door to almost unlimited possibilities. 3D printers are now affordable for almost everyone and are an ideal tool for teaching and education. The only problem that remains is designing 3D parts. We solve this with the flexible Java library JCSG that provides a very convenient way to programmatically create 3D geometries.\r\n\r\nProgrammatically designing 3D geometries is a very strong motivator for children (and everybody else) to learn programming and finally producing something that they can touch in the real world!\r\n\r\nIn this session we explain how 3D printing works and give an introduction to JCSG and VRL-Studio, our Visual Programming Environment that we use for teaching and prototyping. It combines visual and text-based programming and automatically creates interactive user interfaces for any Java Object.\r\n\r\nAttendees get full access to all sample projects that we show in the session.\r\n\r\nLinks:\r\n\r\nhttp://vrl-studio.mihosoft.eu/\r\nhttps://github.com/miho/JCSG\r\nhttp://mihosoft.eu/"
+      },
+      "fromTime": "16:40",
+      "toTimeMillis": 1415896800000,
+      "toTime": "17:40",
+      "roomCapacity": 407,
+      "roomName": "Room 7",
+      "slotId": "conf_room7_thursday_13_16h40_17h40",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1415893200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>What is JMS? When should you use a queue, and when should you use a topic? Should your topic subscriptions be durable or nondurable, shared or unshared? Do your messages need to be persistent, or is nonpersistent better? Which of the four JMS APIs should you be using, and how do they interrelate? These and many other questions about JMS are addressed in this quick-fire session, which answers 50 common questions about how your applications can get the best out of JMS. The introductory-level session is technical in nature, with lots of code examples.</p>\n",
+        "id": "UAY-8252",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/18d52b014b2547cfefe7ce0ac7ebaa2e32c78bc7",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Nigel Deakin"
+            },
+            "name": "Nigel Deakin"
+          }
+        ],
+        "title": "50 JMS 2.0 Best Practices in 50 Minutes  ",
+        "lang": "en",
+        "summary": "What is JMS? When should you use a queue, and when should you use a topic? Should your topic subscriptions be durable or nondurable, shared or unshared? Do your messages need to be persistent, or is nonpersistent better? Which of the four JMS APIs should you be using, and how do they interrelate? These and many other questions about JMS are addressed in this quick-fire session, which answers 50 common questions about how your applications can get the best out of JMS. The introductory-level session is technical in nature, with lots of code examples."
+      },
+      "fromTime": "16:40",
+      "toTimeMillis": 1415896800000,
+      "toTime": "17:40",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "conf_room4_thursday_13_16h40_17h40",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415893200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Startup presentation",
+        "track": "Startups",
+        "summaryAsHtml": "<p>Want to build a billion euro company?  Maybe you are happy with a 100 mio company.  You will need to convince customers of your product, but you will also need money to start and grow your company.  This short presentation gives you some insight in how you to approach this problem, finding a balance in the interests of the founders, the investors and of course the startup company.</p>\n",
+        "id": "VHW-3647",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/0c2b238815cfa228911e309edc1843ccf93eda7a",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Jan Vorstermans"
+            },
+            "name": "Jan Vorstermans"
+          }
+        ],
+        "title": "Have startup.  Need money.",
+        "lang": "en",
+        "summary": "Want to build a billion euro company?  Maybe you are happy with a 100 mio company.  You will need to convince customers of your product, but you will also need money to start and grow your company.  This short presentation gives you some insight in how you to approach this problem, finding a balance in the interests of the founders, the investors and of course the startup company."
+      },
+      "fromTime": "16:40",
+      "toTimeMillis": 1415895000000,
+      "toTime": "17:10",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "start_room3_thursday_13_16h40_17h10",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415895000000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Startup presentation",
+        "track": "Startups",
+        "summaryAsHtml": "<p>&quot;It&#x27;s unfortunate but true: if entrepreneurship is a battle, most casualties stem from friendly fire or self-inflicted wounds.&quot;\nThis is the opening line of a book that really helped me understand my own business. In this book, &quot;The Founder&#x27;s Dilemmas&quot;, Harvard Business School professor Noam Wasserman elaborates on three important questions when looking at a start-up:</p>\n<ul>\n<li>Who should be the founders of your business?</li>\n<li>Who should you hire as employees?</li>\n<li>Who should invest in your company?</li>\n</ul>\n<p>Each of these questions involves making either a series of wealth-oriented decisions or control-oriented decisions. In plain terms: do you want to be rich? Or do you want to be king? Maybe you even want to be both...\nAfter reading The Founder&#x27;s Dilemmas, I realised that I had made half of the mistakes explained in the book, and I was looking forward to making the other half. In my talk, I want to share what the book has taught me and explain how asking the right questions can help you in making the right decisions when growing a business.</p>\n",
+        "id": "AOQ-9369",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/1f82117e988bcf897d343362cfd8992eba242d0e",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Bruno Lowagie"
+            },
+            "name": "Bruno Lowagie"
+          }
+        ],
+        "title": "The Founder's Dilemmas",
+        "lang": "en",
+        "summary": "\"It's unfortunate but true: if entrepreneurship is a battle, most casualties stem from friendly fire or self-inflicted wounds.\"\r\nThis is the opening line of a book that really helped me understand my own business. In this book, \"The Founder's Dilemmas\", Harvard Business School professor Noam Wasserman elaborates on three important questions when looking at a start-up:\r\n\r\n* Who should be the founders of your business?\r\n* Who should you hire as employees?\r\n* Who should invest in your company?\r\n\r\nEach of these questions involves making either a series of wealth-oriented decisions or control-oriented decisions. In plain terms: do you want to be rich? Or do you want to be king? Maybe you even want to be both...\r\nAfter reading The Founder's Dilemmas, I realised that I had made half of the mistakes explained in the book, and I was looking forward to making the other half. In my talk, I want to share what the book has taught me and explain how asking the right questions can help you in making the right decisions when growing a business."
+      },
+      "fromTime": "17:10",
+      "toTimeMillis": 1415896800000,
+      "toTime": "17:40",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "start_room3_thursday_13_17h10_17h40",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415897400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>You may be hearing a lot of buzz around functional programming. For example, Java 8 recently introduced new features (lambda expressions and method references) and APIs (Streams, Optional and CompletableFutures) inspired from functional ideas such as first-class functions, composition and immutability.</p>\n<p>However, what does this mean for my existing codebase?</p>\n<p>In this talk we show how you can refactor your traditional object-oriented Java to using FP features and APIs from Java 8 in a beneficial manner.</p>\n<p>We will discuss:</p>\n<ul>\n<li><p>How to adapt to requirement changes using first-class functions</p>\n</li>\n<li><p>How you can enhance code reusability using currying</p>\n</li>\n<li><p>How you can make your code more robust by favouring immutability over mutability</p>\n</li>\n<li><p>How you can design better APIs and reduce unintended null pointer exceptions using an optional data type</p>\n</li>\n</ul>\n",
+        "id": "TLT-9101",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/926d85f7b33ddf9364c89bcb1a21af9c184308a3",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Raoul-Gabriel Urma"
+            },
+            "name": "Raoul-Gabriel Urma"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/7d5ef7abaae2d41369626d5f74ac3e37db63a0be",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Richard Warburton"
+            },
+            "name": "Richard Warburton"
+          }
+        ],
+        "title": "Pragmatic Functional Refactoring with Java 8",
+        "lang": "en",
+        "summary": "You may be hearing a lot of buzz around functional programming. For example, Java 8 recently introduced new features (lambda expressions and method references) and APIs (Streams, Optional and CompletableFutures) inspired from functional ideas such as first-class functions, composition and immutability.\r\n\r\nHowever, what does this mean for my existing codebase?\r\n\r\nIn this talk we show how you can refactor your traditional object-oriented Java to using FP features and APIs from Java 8 in a beneficial manner.\r\n\r\nWe will discuss:\r\n\r\n- How to adapt to requirement changes using first-class functions \r\n\r\n- How you can enhance code reusability using currying\r\n\r\n- How you can make your code more robust by favouring immutability over mutability\r\n\r\n- How you can design better APIs and reduce unintended null pointer exceptions using an optional data type"
+      },
+      "fromTime": "17:50",
+      "toTimeMillis": 1415901000000,
+      "toTime": "18:50",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "conf_room8_thursday_13_17h50_18h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room5",
+      "notAllocated": false,
+      "fromTimeMillis": 1415897400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Mobile",
+        "summaryAsHtml": "<p>Dealing with the fragmentation of mobile platforms, their versions and device form factors is a daily challenge for mobile app developers. Maintaining multiple codebases by different teams for each platform is neither cost-efficient nor beneficial to keep the focus on expanding your app instead of making it actually work.</p>\n<h1>Titanium = Native</h1>\n<p>Titanium is an app development platform allowing you to build apps for iOS, Android, Tizen, BlackBerry and Windows using a single JavaScript codebase. In contrast with other solutions, this does not result in a slow HTML interface, but delivers actual 100% native UI for an awesome UX!</p>\n<h1>Alloy = Easy</h1>\n<p>Alloy is Titanium&#x27;s MVC framework. Create views in XML, define styles in a CSS-like format and have all that compiled to a classic Titanium project with no overhead on run-time. Alloy makes Titanium even easier to use for those with a background in web development.</p>\n<p>In this presentation I will introduce you to the why and how of Titanium and Alloy using both slides and live code to demonstrate and compare.</p>\n",
+        "id": "BEM-4618",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/ceaae58d27f44911a9173cd75d0ac2b82a8cb15f",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Pratik Patel"
+            },
+            "name": "Pratik Patel"
+          }
+        ],
+        "title": "Use JavaScript to build Mobile Apps with Native UI",
+        "lang": "en",
+        "summary": "Dealing with the fragmentation of mobile platforms, their versions and device form factors is a daily challenge for mobile app developers. Maintaining multiple codebases by different teams for each platform is neither cost-efficient nor beneficial to keep the focus on expanding your app instead of making it actually work.\r\n\r\n# Titanium = Native\r\nTitanium is an app development platform allowing you to build apps for iOS, Android, Tizen, BlackBerry and Windows using a single JavaScript codebase. In contrast with other solutions, this does not result in a slow HTML interface, but delivers actual 100% native UI for an awesome UX!\r\n\r\n# Alloy = Easy\r\nAlloy is Titanium's MVC framework. Create views in XML, define styles in a CSS-like format and have all that compiled to a classic Titanium project with no overhead on run-time. Alloy makes Titanium even easier to use for those with a background in web development.\r\n\r\nIn this presentation I will introduce you to the why and how of Titanium and Alloy using both slides and live code to demonstrate and compare."
+      },
+      "fromTime": "17:50",
+      "toTimeMillis": 1415901000000,
+      "toTime": "18:50",
+      "roomCapacity": 684,
+      "roomName": "Room 5",
+      "slotId": "conf_room5_thursday_13_17h50_18h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room9",
+      "notAllocated": false,
+      "fromTimeMillis": 1415897400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "JVM Languages",
+        "summaryAsHtml": "<p>With 3 million downloads last year, Groovy still clearly leads the pack of alternative languages on the JVM, but it&#x27;s not resting on its laurels. The latest Groovy 2.3 release is pack full of useful new features and performance improvements. In particular, Groovy now supports the concept of &quot;traits&quot; for elegantly composing behaviors. Its JSON support is now the most performant among all the JSON libraries available to date. Groovy 2.3 introduces a new markup-based template engine, new code transformations, and much more. In this session, Groovy project lead Guillaume Laforge will guide you through the latest advancements of the Groovy programming language, and will tell you what&#x27;s cooking for the next releases!</p>\n",
+        "id": "SXX-5334",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/435988122123af3eac633c104bf3374aa019bc28",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Guillaume Laforge"
+            },
+            "name": "Guillaume Laforge"
+          }
+        ],
+        "title": "Groovy in 2014 and beyond",
+        "lang": "en",
+        "summary": "With 3 million downloads last year, Groovy still clearly leads the pack of alternative languages on the JVM, but it's not resting on its laurels. The latest Groovy 2.3 release is pack full of useful new features and performance improvements. In particular, Groovy now supports the concept of \"traits\" for elegantly composing behaviors. Its JSON support is now the most performant among all the JSON libraries available to date. Groovy 2.3 introduces a new markup-based template engine, new code transformations, and much more. In this session, Groovy project lead Guillaume Laforge will guide you through the latest advancements of the Groovy programming language, and will tell you what's cooking for the next releases!"
+      },
+      "fromTime": "17:50",
+      "toTimeMillis": 1415901000000,
+      "toTime": "18:50",
+      "roomCapacity": 425,
+      "roomName": "Room 9",
+      "slotId": "conf_room9_thursday_13_17h50_18h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room6",
+      "notAllocated": false,
+      "fromTimeMillis": 1415897400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>Java EE 7, released over a year ago, introduced several new technologies such as WebSocket, Batch, and JSON. There are already three compliant application servers: WildFly, GlassFish, and Tmaxsoft. NetBeans, Eclipse, and IntelliJ provide extensive tooling support for the APIs. What are the best practices for building and deploying Java EE 7 applications? What to do and not to do? This session takes three Java EE 7 applications running in production and shares lessons learned from each one. It attempts to answer questions such as Is WebSocket ready for production? How do we migrate from Spring Batch to JSR 352 batch? Any change in DevOps? Are additional libraries still needed? Which is more prominent, EJB/JSF or REST/JavaScript?</p>\n",
+        "id": "VIR-8180",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/69e5596a50112585d5acdb93e0a4da47a10a6a8d",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Arun Gupta"
+            },
+            "name": "Arun Gupta"
+          }
+        ],
+        "title": "Lessons Learned from Real-World Deployments of Java EE 7",
+        "lang": "en",
+        "summary": "Java EE 7, released over a year ago, introduced several new technologies such as WebSocket, Batch, and JSON. There are already three compliant application servers: WildFly, GlassFish, and Tmaxsoft. NetBeans, Eclipse, and IntelliJ provide extensive tooling support for the APIs. What are the best practices for building and deploying Java EE 7 applications? What to do and not to do? This session takes three Java EE 7 applications running in production and shares lessons learned from each one. It attempts to answer questions such as Is WebSocket ready for production? How do we migrate from Spring Batch to JSR 352 batch? Any change in DevOps? Are additional libraries still needed? Which is more prominent, EJB/JSF or REST/JavaScript?"
+      },
+      "fromTime": "17:50",
+      "toTimeMillis": 1415901000000,
+      "toTime": "18:50",
+      "roomCapacity": 407,
+      "roomName": "Room 6",
+      "slotId": "conf_room6_thursday_13_17h50_18h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room7",
+      "notAllocated": false,
+      "fromTimeMillis": 1415897400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>The Diabolical Developer presents an illustrated collection of fables concerning the Art and Philosophy of software development, written in the spirit of Zen kōans. Some of the sample Koans include:</p>\n<ul>\n<li>Monoliths</li>\n<li>The 1000  words</li>\n<li>Interpreter</li>\n<li>The Palace of Infinite Pain</li>\n<li>Roses are Red</li>\n<li>Stateless</li>\n<li>....</li>\n</ul>\n<p>The audience will float away, once more at peace with themselves and the practice of software engineering.</p>\n",
+        "id": "HGQ-5035",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/9f17f819d202fd15d48aaad29ed288da86ed62b6",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Martijn Verburg"
+            },
+            "name": "Martijn Verburg"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/8c0626d2618511be4b97ad23cffac45965fc3683",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Qiless Qi"
+            },
+            "name": "Qiless Qi"
+          }
+        ],
+        "title": "The Codeless Code",
+        "lang": "en",
+        "summary": "The Diabolical Developer presents an illustrated collection of fables concerning the Art and Philosophy of software development, written in the spirit of Zen kōans. Some of the sample Koans include:\r\n\r\n* Monoliths\r\n* The 1000  words\r\n* Interpreter\r\n* The Palace of Infinite Pain\r\n* Roses are Red\r\n* Stateless\r\n* ....\r\n\r\nThe audience will float away, once more at peace with themselves and the practice of software engineering."
+      },
+      "fromTime": "17:50",
+      "toTimeMillis": 1415901000000,
+      "toTime": "18:50",
+      "roomCapacity": 407,
+      "roomName": "Room 7",
+      "slotId": "conf_room7_thursday_13_17h50_18h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room4",
+      "notAllocated": false,
+      "fromTimeMillis": 1415897400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Conference",
+        "track": "Server Side Java",
+        "summaryAsHtml": "<p>A standardised JSON Processing API has been introduced in Java EE 7 but that was only the first step! This session will go over at the enhancements that will improves JSON supports in the Java platform.</p>\n<p>Two JSRs will discussed: &#x27;Java API for JSON Binding&#x27; and &#x27;JSON-Processing 1.1&#x27;.\nJSON-B will finally bring the ability to convert, in a standard way, JSON payloads to Java objects (and vice-versa). So come to this session to see how you would be able to leverage your preferred binding framework with this new API.</p>\n<p>Finally, we will also look at some of the improvements that are planned for JSON-P 1.1 such as the addition of JSON-Pointers and JSON-Patches which will be particularly useful when deling with Big(JSON)-Data.</p>\n",
+        "id": "AAW-4661",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/21451efc1bd7fe90b564e9a0552956267b96ed6d",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "David Delabassee"
+            },
+            "name": "David Delabassee"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/1b4bf499fa0414415488eda6b7d351b84bb41388",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Martin Grebac"
+            },
+            "name": "Martin Grebac"
+          }
+        ],
+        "title": "A first look at JSON-B and JSON-P 1.1",
+        "lang": "en",
+        "summary": "A standardised JSON Processing API has been introduced in Java EE 7 but that was only the first step! This session will go over at the enhancements that will improves JSON supports in the Java platform.\r\n\r\nTwo JSRs will discussed: 'Java API for JSON Binding' and 'JSON-Processing 1.1'.\r\nJSON-B will finally bring the ability to convert, in a standard way, JSON payloads to Java objects (and vice-versa). So come to this session to see how you would be able to leverage your preferred binding framework with this new API.\r\n\r\nFinally, we will also look at some of the improvements that are planned for JSON-P 1.1 such as the addition of JSON-Pointers and JSON-Patches which will be particularly useful when deling with Big(JSON)-Data."
+      },
+      "fromTime": "17:50",
+      "toTimeMillis": 1415901000000,
+      "toTime": "18:50",
+      "roomCapacity": 364,
+      "roomName": "Room 4",
+      "slotId": "conf_room4_thursday_13_17h50_18h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415897400000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Startup presentation",
+        "track": "Startups",
+        "summaryAsHtml": "<p>Gradleware has successfully closed its funding process this year. I learned a lot during this time and would like to share my insights about the do&#x27;s and don&#x27;ts. In this session I will talk about:</p>\n<ul>\n<li>How to pitch a business model that is based on open source technology and developer tooling?</li>\n<li>The advantages of moving the business headquarters to the bay area.</li>\n<li>The advantages of having a VC from the bay area.</li>\n<li>How to manage the funding process in the bay area when you are not based there?</li>\n<li>What makes a good VC?</li>\n<li>The virtues of initial organic growth.</li>\n<li>Organizations that can provide valuable help.</li>\n</ul>\n",
+        "id": "CLU-1000",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/8758fe22aefa09b5eb0bcf3c27e787aebb2c8ec3",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Hans Dockter"
+            },
+            "name": "Hans Dockter"
+          }
+        ],
+        "title": "If you are going to San Francisco",
+        "lang": "en",
+        "summary": "Gradleware has successfully closed its funding process this year. I learned a lot during this time and would like to share my insights about the do's and don'ts. In this session I will talk about:\r\n\r\n- How to pitch a business model that is based on open source technology and developer tooling?\r\n- The advantages of moving the business headquarters to the bay area.\r\n- The advantages of having a VC from the bay area.\r\n- How to manage the funding process in the bay area when you are not based there?\r\n- What makes a good VC?\r\n- The virtues of initial organic growth.\r\n- Organizations that can provide valuable help."
+      },
+      "fromTime": "17:50",
+      "toTimeMillis": 1415899200000,
+      "toTime": "18:20",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "start_room3_thursday_13_17h50_18h20",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room3",
+      "notAllocated": false,
+      "fromTimeMillis": 1415899200000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Startup presentation",
+        "track": "Startups",
+        "summaryAsHtml": "<p>Going from an MVP to a product used daily by many customers doesn&#x27;t happen overnight. Neither does its infrastructure. WooRank was built as a single application on just one database, where new features were stacking up... until it became a monolith that was barely scalable. Over the years the monolith has been deconstructed into little micro-services owning their own database of choice, and talking together to offer a smooth user experience. This enables the company to form small product teams that are responsible for building, deploying and maintaining their own services independently and allows people to move from team to team in a flexible way. This talk will cover the hurdles Woorank had to overcome, will share the hard lessons learned, and peek into what&#x27;s to come in the near future.</p>\n",
+        "id": "OPQ-5247",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/23600e3af967256c3b8a7aa66bc11b1ea839a62b",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Nils De Moor"
+            },
+            "name": "Nils De Moor"
+          }
+        ],
+        "title": "Woorank: Dismantling the monolith into litle stones",
+        "lang": "en",
+        "summary": "Going from an MVP to a product used daily by many customers doesn't happen overnight. Neither does its infrastructure. WooRank was built as a single application on just one database, where new features were stacking up... until it became a monolith that was barely scalable. Over the years the monolith has been deconstructed into little micro-services owning their own database of choice, and talking together to offer a smooth user experience. This enables the company to form small product teams that are responsible for building, deploying and maintaining their own services independently and allows people to move from team to team in a flexible way. This talk will cover the hurdles Woorank had to overcome, will share the hard lessons learned, and peek into what's to come in the near future. "
+      },
+      "fromTime": "18:20",
+      "toTimeMillis": 1415901000000,
+      "toTime": "18:50",
+      "roomCapacity": 345,
+      "roomName": "Room 3",
+      "slotId": "start_room3_thursday_13_18h20_18h50",
+      "day": "thursday"
+    },
+    {
+      "roomId": "a_hall",
+      "notAllocated": false,
+      "fromTimeMillis": 1415901000000,
+      "break": {
+        "id": "movie",
+        "nameEN": "Closing keynote 19:00-19:30 - Movie 20:00-22:00",
+        "nameFR": "Movie",
+        "room": {
+          "id": "a_hall",
+          "name": "Exhibition floor",
+          "capacity": 1500,
+          "recorded": false,
+          "setup": "special"
+        }
+      },
+      "roomSetup": "special",
+      "talk": null,
+      "fromTime": "18:50",
+      "toTimeMillis": 1415905200000,
+      "toTime": "20:00",
+      "roomCapacity": 1500,
+      "roomName": "Exhibition floor",
+      "slotId": "movie_thursday_13_18h50_19h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "bof1",
+      "notAllocated": false,
+      "fromTimeMillis": 1415901600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "talkType": "BOF (Bird of a Feather)",
+        "track": "Future<Devoxx>",
+        "summaryAsHtml": "<p>Devoxx4Kids is a global effort to inspire teenagers and kids in computer programming, robotics, and electronics. This is achieved by delivering workshops on Scratch, Minecraft modding, Java programming, Greenfoot, Raspberry Pi, Arduino, NAO robots, and a variety of other topics.\nThe BOF will provide you with the latest updates on the Devoxx4Kids initiative, we will share experiences and make sure you get all necessary information in order to start, on your side, organizing programming events for children.</p>\n",
+        "id": "FZS-8212",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/f5bed9d28ec5b329c3720a97abdd63dd044e9af8",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Daniel De Luca"
+            },
+            "name": "Daniel De Luca"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/69e5596a50112585d5acdb93e0a4da47a10a6a8d",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Arun Gupta"
+            },
+            "name": "Arun Gupta"
+          }
+        ],
+        "title": "Devoxx4Kids : a State of the Union",
+        "lang": "en",
+        "summary": "Devoxx4Kids is a global effort to inspire teenagers and kids in computer programming, robotics, and electronics. This is achieved by delivering workshops on Scratch, Minecraft modding, Java programming, Greenfoot, Raspberry Pi, Arduino, NAO robots, and a variety of other topics. \r\nThe BOF will provide you with the latest updates on the Devoxx4Kids initiative, we will share experiences and make sure you get all necessary information in order to start, on your side, organizing programming events for children."
+      },
+      "fromTime": "19:00",
+      "toTimeMillis": 1415905200000,
+      "toTime": "20:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "bof_bof1_thursday_13_19h0_20h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "bof2",
+      "notAllocated": false,
+      "fromTimeMillis": 1415901600000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "talkType": "BOF (Bird of a Feather)",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>“Pay no attention to the man behind the curtain” was famously said by the Wizard of Oz, but in our day-to-day lives as developers how often do we think about the code behind our proverbial development platform curtain? Many people know that OpenJDK is the open source reference implementation for the JDK, but how many of us take the time to explore the inner-workings of the platform that we build our applications upon? We believe that every developer can learn something by doing so.</p>\n<p>Whether you want to explore the source code and perhaps see how lambdas have been implemented in JDK 8, or hack on the JDK itself and learn how to make that modification to HashMap that you’ve always dreamed of, or even learn how you can help to make it easier for fellow developers to contribute code to upstream Oracle repos, then we’ve got you covered. Come and join us for an evening of OpenJDK exploration, and learn how you can explore and contribute to the future of Java in a very practical fashion.</p>\n",
+        "id": "SSD-5392",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/9306cdf428290c271555f664d29bca3a20140898",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Daniel Bryant"
+            },
+            "name": "Daniel Bryant"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/e30667f7923c34c36ad101e18070c66c0b5c9182",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Mani Sarkar"
+            },
+            "name": "Mani Sarkar"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/9f17f819d202fd15d48aaad29ed288da86ed62b6",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Martijn Verburg"
+            },
+            "name": "Martijn Verburg"
+          }
+        ],
+        "title": "Adopt OpenJDK",
+        "lang": "en",
+        "summary": "“Pay no attention to the man behind the curtain” was famously said by the Wizard of Oz, but in our day-to-day lives as developers how often do we think about the code behind our proverbial development platform curtain? Many people know that OpenJDK is the open source reference implementation for the JDK, but how many of us take the time to explore the inner-workings of the platform that we build our applications upon? We believe that every developer can learn something by doing so.\r\n\r\nWhether you want to explore the source code and perhaps see how lambdas have been implemented in JDK 8, or hack on the JDK itself and learn how to make that modification to HashMap that you’ve always dreamed of, or even learn how you can help to make it easier for fellow developers to contribute code to upstream Oracle repos, then we’ve got you covered. Come and join us for an evening of OpenJDK exploration, and learn how you can explore and contribute to the future of Java in a very practical fashion."
+      },
+      "fromTime": "19:00",
+      "toTimeMillis": 1415905200000,
+      "toTime": "20:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "bof_bof2_thursday_13_19h0_20h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "room8",
+      "notAllocated": false,
+      "fromTimeMillis": 1415901600000,
+      "break": null,
+      "roomSetup": "theatre",
+      "talk": {
+        "talkType": "Keynote",
+        "track": "Methodology & DevOps",
+        "summaryAsHtml": "<p>Keynote on Infinite Possibilities on all IT aspects.</p>\n",
+        "id": "YVU-7155",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/fa9be1fb8b75625776caef0a4946a16dc690e505",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Denise Jacobs"
+            },
+            "name": "Denise Jacobs"
+          }
+        ],
+        "title": "Infinite Possibilities",
+        "lang": "en",
+        "summary": "Keynote on Infinite Possibilities on all IT aspects."
+      },
+      "fromTime": "19:00",
+      "toTimeMillis": 1415903400000,
+      "toTime": "19:30",
+      "roomCapacity": 745,
+      "roomName": "Room 8",
+      "slotId": "key_room8_thursday_13_19h0_19h30",
+      "day": "thursday"
+    },
+    {
+      "roomId": "bof1",
+      "notAllocated": false,
+      "fromTimeMillis": 1415905200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "talkType": "BOF (Bird of a Feather)",
+        "track": "Java SE",
+        "summaryAsHtml": "<p>This BOF is a great excuse to meet face 2 face with all the other User Group leaders and enjoy a few beers afterwards  :)</p>\n",
+        "id": "GDE-5639",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/4b92b9fcc31eae2b6236147b1db6a30609b43e33",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Stephan Janssen"
+            },
+            "name": "Stephan Janssen"
+          },
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/9f17f819d202fd15d48aaad29ed288da86ed62b6",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Martijn Verburg"
+            },
+            "name": "Martijn Verburg"
+          }
+        ],
+        "title": "Annual Java User Group Network Fest",
+        "lang": "en",
+        "summary": "This BOF is a great excuse to meet face 2 face with all the other User Group leaders and enjoy a few beers afterwards  :)"
+      },
+      "fromTime": "20:00",
+      "toTimeMillis": 1415908800000,
+      "toTime": "21:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "bof_bof1_thursday_13_20h0_21h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "bof2",
+      "notAllocated": false,
+      "fromTimeMillis": 1415905200000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "talkType": "BOF (Bird of a Feather)",
+        "track": "Web & HTML5",
+        "summaryAsHtml": "<p>Web Components will fundamentally change how developers build web experiences. Polymer is Google&#x27;s productive toolset for working with the new and exciting Web Component standards. Let&#x27;s talk about how Web Components change how we think about building applications, design considerations when using Web Components and Polymer, and how Polymer integrates with existing technologies.</p>\n",
+        "id": "BMJ-1650",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/98e120d793bc49793f115ac9d68e798cb8544c8b",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Horacio Gonzalez"
+            },
+            "name": "Horacio Gonzalez"
+          }
+        ],
+        "title": "Web Components with Polymer",
+        "lang": "en",
+        "summary": "Web Components will fundamentally change how developers build web experiences. Polymer is Google's productive toolset for working with the new and exciting Web Component standards. Let's talk about how Web Components change how we think about building applications, design considerations when using Web Components and Polymer, and how Polymer integrates with existing technologies. "
+      },
+      "fromTime": "20:00",
+      "toTimeMillis": 1415908800000,
+      "toTime": "21:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "bof_bof2_thursday_13_20h0_21h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "bof1",
+      "notAllocated": false,
+      "fromTimeMillis": 1415908800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "talkType": "BOF (Bird of a Feather)",
+        "track": "Startups",
+        "summaryAsHtml": "<p>BelCham offers services to Belgian entrepreneurs ready to move to the SF Bay Area and helps connecting young potentials with the hottest startups. We are dedicated to fostering business growth and development within the dynamic Belgian-American community.\nThis informal Q&amp;A session will give you the opportunity to learn about BelCham and ask questions to our invited speakers: a founder and software engineer living and working in SF.</p>\n",
+        "id": "EEO-3466",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/1daa5604b1ba65c635e9fba54107597e576df4c5",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Pelin  Ildeniz"
+            },
+            "name": "Pelin  Ildeniz"
+          }
+        ],
+        "title": "Fast-track to the SF Bay Area with BelCham!",
+        "lang": "en",
+        "summary": "BelCham offers services to Belgian entrepreneurs ready to move to the SF Bay Area and helps connecting young potentials with the hottest startups. We are dedicated to fostering business growth and development within the dynamic Belgian-American community. \r\nThis informal Q&A session will give you the opportunity to learn about BelCham and ask questions to our invited speakers: a founder and software engineer living and working in SF."
+      },
+      "fromTime": "21:00",
+      "toTimeMillis": 1415912400000,
+      "toTime": "22:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 1",
+      "slotId": "bof_bof1_thursday_13_21h0_22h0",
+      "day": "thursday"
+    },
+    {
+      "roomId": "bof2",
+      "notAllocated": false,
+      "fromTimeMillis": 1415908800000,
+      "break": null,
+      "roomSetup": "classroom",
+      "talk": {
+        "talkType": "BOF (Bird of a Feather)",
+        "track": "Web & HTML5",
+        "summaryAsHtml": "<p>IoT describes the ability to transfer data over the network with messaging without human-to-human or human-to-computer interaction. To transfer the data, protocols such as MQTT (Message Queue Telemetry Transport) and AMQP (Advanced Message\nQueuing Protocol) can be used. WebSockets can be used as a standardised way to communicate asynchronously between a web page and a server. The IoT protocols can be used to transfer data over WebSockets. The Machine to Machine (M2M) messages would be handled by a messaging and integration patterns server such as ActiveMQ.</p>\n<p>This session will provide an overview of messaging protocols like MQTT and AMQP and how these protocols can be used over WebSocket to transmit data. Design patterns and anti-patterns of different messaging protocols and architecture will be discussed in detail. The session will also show how these protocols were used in a real-life application with a Raspberry Pis cluster. Attendees will learn practical advise on how to\nconfigure Raspberry Pi and brokers for an optimised setting.</p>\n",
+        "id": "CLU-7018",
+        "speakers": [
+          {
+            "link": {
+              "href": "http://cfp.devoxx.fr/api/conferences/DevoxxFR2015/speakers/90ee161076eac8f1714818faef1ade35b25b3602",
+              "rel": "http://cfp.devoxx.fr/api/profile/speaker",
+              "title": "Kenneth Peeples"
+            },
+            "name": "Kenneth Peeples"
+          }
+        ],
+        "title": "Practical Advise on IoT and Messaging Protocols ",
+        "lang": "en",
+        "summary": "IoT describes the ability to transfer data over the network with messaging without human-to-human or human-to-computer interaction. To transfer the data, protocols such as MQTT (Message Queue Telemetry Transport) and AMQP (Advanced Message \r\nQueuing Protocol) can be used. WebSockets can be used as a standardised way to communicate asynchronously between a web page and a server. The IoT protocols can be used to transfer data over WebSockets. The Machine to Machine (M2M) messages would be handled by a messaging and integration patterns server such as ActiveMQ.\r\n\r\nThis session will provide an overview of messaging protocols like MQTT and AMQP and how these protocols can be used over WebSocket to transmit data. Design patterns and anti-patterns of different messaging protocols and architecture will be discussed in detail. The session will also show how these protocols were used in a real-life application with a Raspberry Pis cluster. Attendees will learn practical advise on how to \r\nconfigure Raspberry Pi and brokers for an optimised setting. "
+      },
+      "fromTime": "21:00",
+      "toTimeMillis": 1415912400000,
+      "toTime": "22:00",
+      "roomCapacity": 70,
+      "roomName": "BOF 2",
+      "slotId": "bof_bof2_thursday_13_21h0_22h0",
+      "day": "thursday"
+    }
+  ]
+}

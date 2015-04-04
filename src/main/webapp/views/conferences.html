@@ -12,6 +12,5 @@
 </div>
 <slot
 	ng-repeat="evt in agenda | filter:{day : day} | filter:selected | orderBy:'fromTimeMillis'"
-	event="evt"
-    attendee="attendees[evt.slotId]">
+	event="evt">
 </slot>

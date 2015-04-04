@@ -1,10 +1,4 @@
 <div class="content" title="{{event.slotId}}">
-	<div class="pull-right">
-		<span class="label" ng-class="{'label-success': attendee > 0, 'label-default': !attendee}">
-			{{attendee || '0'}}
-			<i class="fa fa-user"></i>
-		</span>
-	</div>
 	<div class="time">{{event.fromTime}} - {{event.toTime}} </div> 
 	<div class="title">{{event.talk.title}}</div> 
 	<div class="details">{{event.roomName}}: 

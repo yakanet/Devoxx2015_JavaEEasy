@@ -14,8 +14,7 @@ angular.module('DevoxxApp', ['ui.bootstrap'])
 .directive('slot', function () {
     return {
         scope: {
-            event: '=',
-            attendee: '='
+            event: '='
         },
         templateUrl: 'views/slot.html'
     };

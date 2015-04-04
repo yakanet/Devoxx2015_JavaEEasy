@@ -3,7 +3,7 @@
  */
 /*global angular*/
 angular.module('DevoxxApp', ['ui.bootstrap'])
-.controller('ConferenceCtrl', function ($scope, $http, $modal) {
+.controller('ConferenceCtrl', function ($scope, $http) {
 	  $http.get('rest/conferences')
       .success(function (result) {
           $scope.agenda = result.filter(function (key) {

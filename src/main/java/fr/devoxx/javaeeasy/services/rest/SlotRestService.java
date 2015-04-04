@@ -35,10 +35,4 @@ public class SlotRestService {
 		return conferences.getConferences();
 	}
 
-	@GET
-	@Path("attendees")
-	@Produces(MediaType.APPLICATION_JSON)
-	public Map<String,Integer> getAttendeesBySlotId(){
-		return new HashMap<>();
-	}
 }

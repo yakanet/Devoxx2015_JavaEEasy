@@ -33,10 +33,10 @@
       <version>2.4</version>
       <scope>provided</scope>
     </dependency>
-    <dependency>
+    <dependency> <!-- to avoid issues on windows, UTF-8 default encoding users don't need it -->
       <groupId>org.apache.johnzon</groupId>
       <artifactId>johnzon-jaxrs</artifactId>
-      <version>0.6-incubating</version>
+      <version>0.8-incubating-SNAPSHOT</version>
       <scope>provided</scope>
     </dependency>
 

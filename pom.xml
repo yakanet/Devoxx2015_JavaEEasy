@@ -33,12 +33,6 @@
       <version>2.4</version>
       <scope>provided</scope>
     </dependency>
-    <dependency> <!-- to avoid issues on windows, UTF-8 default encoding users don't need it -->
-      <groupId>org.apache.johnzon</groupId>
-      <artifactId>johnzon-jaxrs</artifactId>
-      <version>0.8-incubating-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency>
 
     <!-- WEBJARS -->
     <dependency>
@@ -110,34 +104,6 @@
           <failOnMissingWebXml>false</failOnMissingWebXml>
         </configuration>
       </plugin>
-      <!--
-      <plugin>
-        <groupId>org.apache.openjpa</groupId>
-        <artifactId>openjpa-maven-plugin</artifactId>
-        <version>2.3.0</version>
-        <executions>
-          <execution>
-            <id>enhancer</id>
-            <phase>process-classes</phase>
-            <goals>
-              <goal>enhance</goal>
-            </goals>
-          </execution>
-        </executions>
-        <configuration>
-          <includes>fr/devoxx/javaeeasy/service/jpa/*.class</includes>
-          <addDefaultConstructor>true</addDefaultConstructor>
-          <persistenceXmlFile>${project.basedir}/src/main/webapp/WEB-INF/persistence.xml</persistenceXmlFile>
-        </configuration>
-        <dependencies>
-          <dependency>
-            <groupId>org.apache.openejb.patch</groupId>
-            <artifactId>openjpa</artifactId>
-            <version>2.4.0-nonfinal-1598334</version>
-          </dependency>
-        </dependencies>
-      </plugin>
-      -->
       <plugin>
         <groupId>org.apache.openejb.maven</groupId>
         <artifactId>tomee-embedded-maven-plugin</artifactId>
@@ -150,6 +116,14 @@
             <devoxx2>devoxx2</devoxx2>
           </users>
         </configuration>
+        <dependencies>
+          <dependency> <!-- to avoid issues on windows, UTF-8 default encoding users don't need it -->
+            <groupId>org.apache.johnzon</groupId>
+            <artifactId>johnzon-jaxrs</artifactId>
+            <version>0.8-incubating-SNAPSHOT</version>
+            <scope>provided</scope>
+          </dependency>
+        </dependencies>
       </plugin>
       <plugin>
         <groupId>org.jsonschema2pojo</groupId>

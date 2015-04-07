@@ -50,7 +50,7 @@ public class DevoxxServerMock {
 
     public static void assertConferences(final Collection<Slot> conferences) {
         assertNotNull(conferences);
-        assertEquals(248, conferences.size());
+        assertEquals(249, conferences.size());
         List<Slot> allConferencesList = new LinkedList<>();
         allConferencesList.addAll(conferences);
 
@@ -58,8 +58,8 @@ public class DevoxxServerMock {
         assertEquals("a_hall",allConferencesList.get(0).getRoomId());
         assertEquals("wednesday",allConferencesList.get(1).getDay());
         assertEquals("b_amphi",allConferencesList.get(1).getRoomId());
-        assertEquals("friday",allConferencesList.get(247).getDay());
-        assertEquals("b_amphi",allConferencesList.get(247).getRoomId());
+        assertEquals("friday",allConferencesList.get(248).getDay());
+        assertEquals("b_amphi",allConferencesList.get(248).getRoomId());
 
     }
 }

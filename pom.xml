@@ -121,7 +121,6 @@
             <groupId>org.apache.johnzon</groupId>
             <artifactId>johnzon-jaxrs</artifactId>
             <version>0.8-incubating-SNAPSHOT</version>
-            <scope>provided</scope>
           </dependency>
         </dependencies>
       </plugin>

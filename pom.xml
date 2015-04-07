@@ -33,12 +33,6 @@
       <version>2.4</version>
       <scope>provided</scope>
     </dependency>
-    <dependency> <!-- to avoid issues on windows, UTF-8 default encoding users don't need it -->
-      <groupId>org.apache.johnzon</groupId>
-      <artifactId>johnzon-jaxrs</artifactId>
-      <version>0.8-incubating-SNAPSHOT</version>
-      <scope>provided</scope>
-    </dependency>
 
     <!-- WEBJARS -->
     <dependency>
@@ -148,6 +142,14 @@
             <devoxx2>devoxx2</devoxx2>
           </users>
         </configuration>
+        <dependencies>
+          <dependency> <!-- to avoid issues on windows, UTF-8 default encoding users don't need it -->
+            <groupId>org.apache.johnzon</groupId>
+            <artifactId>johnzon-jaxrs</artifactId>
+            <version>0.8-incubating-SNAPSHOT</version>
+            <scope>provided</scope>
+          </dependency>
+        </dependencies>
       </plugin>
       <plugin>
         <groupId>org.jsonschema2pojo</groupId>
